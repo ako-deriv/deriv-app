@@ -1,1 +1,483 @@
-if(!self.define){const e=e=>{"require"!==e&&(e+=".js");let o=Promise.resolve();return a[e]||(o=new Promise((async o=>{if("document"in self){const a=document.createElement("script");a.src=e,document.head.appendChild(a),a.onload=o}else importScripts(e),o()}))),o.then((()=>{if(!a[e])throw new Error(`Module ${e} didn’t register its module`);return a[e]}))},o=(o,a)=>{Promise.all(o.map(e)).then((e=>a(1===e.length?e[0]:e)))},a={require:Promise.resolve(o)};self.define=(o,d,s)=>{a[o]||(a[o]=Promise.resolve().then((()=>{let a={};const c={uri:location.origin+o.slice(1)};return Promise.all(d.map((o=>{switch(o){case"exports":return a;case"module":return c;default:return e(o)}}))).then((e=>{const o=s(...e);return a.default||(a.default=o),a}))})))}}define("./service-worker.js",["./workbox-ec5d4325"],(function(e){"use strict";importScripts("https://cdn.pushwoosh.com/webpush/v3/pushwoosh-service-worker.js"),self.skipWaiting(),e.clientsClaim(),e.precacheAndRoute([{url:"/ako/account/node_modules/@deriv/account/dist/account/css/account-app.24d4644e487361f9b849.css",revision:"21ed6bf5a21dd345a7f08adb72aa3c7b"},{url:"/ako/account/node_modules/@deriv/account/dist/account/css/account-limits.css",revision:"d873da173d3a105a4dd4483069522567"},{url:"/ako/account/node_modules/@deriv/account/dist/account/css/api-token.css",revision:"9ab3ff916c7f557367ab3b80234c255e"},{url:"/ako/account/node_modules/@deriv/account/dist/account/css/demo-message.css",revision:"dc2513f67c0121846679e19270590f04"},{url:"/ako/account/node_modules/@deriv/account/dist/account/css/financial-assessment.css",revision:"dc2513f67c0121846679e19270590f04"},{url:"/ako/account/node_modules/@deriv/account/dist/account/css/self-exclusion.css",revision:"d4c76b5a84347a82fe9cbd8f58a722d7"},{url:"/ako/account/node_modules/@deriv/account/dist/account/css/terms-of-use.css",revision:"5bbe1e8bcd8b49970e0ad3f401d0cb61"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/account-limits.js",revision:"24fafc548be2257520b8be66c592e83d"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/account-limits.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/account.404.e26dbeae63b76b258fcd.js",revision:"fc524e448c4be965f0819bd115740c89"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/account.account-app.3d40e3a51e81b78a7839.js",revision:"636b91e2f54b1771490272c2845cc0a2"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/account.js",revision:"3e428b22a1d1dc0c8495536b67622a9d"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/account.vendors-node_modules_binary-com_binary-document-uploader_DocumentUploader_js-node_modules_bow-98e3f9.47e3e9a2d428f38adc29.js",revision:"0ab345d53617d0145d7aa8c7421f105d"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/account.vendors-node_modules_binary-com_binary-document-uploader_DocumentUploader_js-node_modules_bow-98e3f9.47e3e9a2d428f38adc29.js.LICENSE.txt",revision:"4cbb4c855fa3da3b2cc9fd67d811087b"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/address-details-config.js",revision:"65d1da62c447497c766baf15028c6a41"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/address-details.js",revision:"e50eb690ba03baecea58b4777897b3a7"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/address-details.js.LICENSE.txt",revision:"6fce53c7c7713ebf61712cc2929746fa"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/api-token.js",revision:"319c3c6a9af79b6bc34f11b574b55650"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/api-token.js.LICENSE.txt",revision:"b6632312a3be953da62107b37d979bc6"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/currency-radio-button-group.js",revision:"408fbc893bbf79c0c77ef4b1b108ccdc"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/currency-radio-button-group.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/currency-radio-button.js",revision:"0b3f06302ccbf622e2c50b56c2a27e9c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/currency-radio-button.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/currency-selector-config.js",revision:"0bce57aabc079068473f1dc025f6f59f"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/currency-selector-schema.js",revision:"34a8486cf1fadbfe57b580a7f9fcbe6f"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/currency-selector.js",revision:"4fbd423c2de6c271ab1c989a191aa276"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/currency-selector.js.LICENSE.txt",revision:"b6632312a3be953da62107b37d979bc6"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/demo-message.js",revision:"98a7b0231e757f7ef91a811390c132d0"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/demo-message.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/error-component.js",revision:"f618895d4b1c231348595b3b5005d430"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/file-uploader-container.js",revision:"5f5a75b426ec6089654d73168845f5a4"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/file-uploader-container.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/financial-assessment.js",revision:"f9ff670f53092333471ef2ac1ac115b3"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/financial-assessment.js.LICENSE.txt",revision:"b6632312a3be953da62107b37d979bc6"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/financial-details-config.js",revision:"0dd9119b4bd6eef281ec521a3a4352a0"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/financial-details.js",revision:"ffedba229e33dc92870961c026c259eb"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/financial-details.js.LICENSE.txt",revision:"b6632312a3be953da62107b37d979bc6"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/form-body.js",revision:"1dc2f4798cfedd62bc9aea4d18744b8b"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/form-body.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/form-footer.js",revision:"ab666e164ab7d5a023460bc83261576a"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/form-footer.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/form-sub-header.js",revision:"2a629cd1ee86dc2a8868bde914cb235a"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/form-sub-header.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/icon-message-content.js",revision:"a1063b8f1466856d7a9d906f25456199"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/icon-message-content.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/leave-confirm.js",revision:"df2e7f9e8a1d753f1ae31b05408550a5"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/leave-confirm.js.LICENSE.txt",revision:"b6632312a3be953da62107b37d979bc6"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/load-error-message.js",revision:"47536ad5c1a171266fbf6075bca75118"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/load-error-message.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/personal-details-config.js",revision:"24b1522e630a06f3dcc9e375a59061f8"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/personal-details.js",revision:"47707ad9ae9fce67bb77374c69566117"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/personal-details.js.LICENSE.txt",revision:"b6632312a3be953da62107b37d979bc6"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poa-expired.js",revision:"8fc8bfed8eaeaabeb23381c5cbdb9dd7"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poa-expired.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poa-needs-review.js",revision:"bdca104b38665b9702222476757bdcb0"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poa-needs-review.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poa-status-codes.js",revision:"9ea6d09ac2839a30ef48dbc212a2369b"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poa-submitted.js",revision:"84f53be679e22a693ce36878fd503235"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poa-submitted.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poa-unverified.js",revision:"2c2413554087948c50c51cf23cca61a5"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poa-unverified.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poa-verified.js",revision:"6fca64ec81e0b1a6477b3bf8a20022af"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poa-verified.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poi-expired.js",revision:"d0462f2a7f6674802ef271df06935d96"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poi-expired.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poi-missing-personal-details.js",revision:"cdaa4e7c1227c0c441240850e7bb8e99"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poi-missing-personal-details.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poi-onfido-failed.js",revision:"33bd4df1b5b3f2ab127d70bb7c576280"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poi-onfido-failed.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poi-unsupported.js",revision:"0e26b518a32b234e5a19f96cb662aaff"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poi-unsupported.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poi-unverified.js",revision:"0fa86535c2a3bda4909007c2cc9ae0f2"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poi-unverified.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poi-upload-complete.js",revision:"47278242d1375b33a2d03c4aeb050975"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poi-upload-complete.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poi-verified.js",revision:"ac8befb01606f816728dedf1078ba0ae"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/poi-verified.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/proof-of-address-container.js",revision:"dc9b3ec40be2bb6e967f7b82b5da2388"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/proof-of-address-container.js.LICENSE.txt",revision:"b6632312a3be953da62107b37d979bc6"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/proof-of-identity-container.js",revision:"47f18228e6dceb6941ca84fa433ce04f"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/proof-of-identity-container.js.LICENSE.txt",revision:"4cbb4c855fa3da3b2cc9fd67d811087b"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/scrollbars-container.js",revision:"9923fc3f4067d60b06dd8285f06ac241"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/scrollbars-container.js.LICENSE.txt",revision:"fe07165234709e61e0cdc05d4056de5c"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/self-exclusion.js",revision:"95cb5ce31544e7a0d9697a2154e2aa8e"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/self-exclusion.js.LICENSE.txt",revision:"b6632312a3be953da62107b37d979bc6"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/sent-email-modal.js",revision:"3c1e04e2c6e5d2d5381a9adcd82c311d"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/terms-of-use-config.js",revision:"b2c439af1575eae451d734c02fe77361"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/terms-of-use.js",revision:"35c51b33dfe26611c9c001d81c2a11a3"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/terms-of-use.js.LICENSE.txt",revision:"b6632312a3be953da62107b37d979bc6"},{url:"/ako/account/node_modules/@deriv/account/dist/account/js/text-container.js",revision:"47cb38df0e20cebd7dba2b823cc04b92"},{url:"/ako/bot/css/bot.bot-web-ui-app.06724ae9ae82474184df.css",revision:"8a14130b83367a58d459d9bd6c9194fc"},{url:"/ako/bot/node_modules/@deriv/bot-web-ui/dist/bot/js/bot-web-ui.main.js",revision:"ce5eac876e9328ec715193c4b1693d4a"},{url:"/ako/bot/node_modules/@deriv/bot-web-ui/dist/bot/js/bot.83.8e8688347c9d7508d584.js",revision:"3cd89ab5602a9f1ae2072106a26b2a12"},{url:"/ako/bot/node_modules/@deriv/bot-web-ui/dist/bot/js/bot.83.8e8688347c9d7508d584.js.LICENSE.txt",revision:"dc6f0d184a1dbe0a3658cb435b49ad7e"},{url:"/ako/bot/node_modules/@deriv/bot-web-ui/dist/bot/js/bot.bot-web-ui-app.4e083d430eda87767b75.js",revision:"e2a4086e28a76bf71a6b911fa6872fc8"},{url:"/ako/bot/node_modules/@deriv/bot-web-ui/dist/bot/js/bot.dalembert-xml.abe64e37e5360a0ba434.js",revision:"f313249f096587d1f6f6eaa4a2ad2e84"},{url:"/ako/bot/node_modules/@deriv/bot-web-ui/dist/bot/js/bot.dbot-collection.f14820dbd61c06f9575b.js",revision:"12260052fccdf4f76ccd7a910c63a7be"},{url:"/ako/bot/node_modules/@deriv/bot-web-ui/dist/bot/js/bot.martingale-xml.83bb7a242dae3db3b78a.js",revision:"64de3d5f6f1259eb73bacbcded656607"},{url:"/ako/bot/node_modules/@deriv/bot-web-ui/dist/bot/js/bot.oscars_grind-xml.99a58197afae1b3a8a0b.js",revision:"b9f75da0d3b10525b3ff81ffb94e8c6c"},{url:"/ako/cashier/js/cashier-store.js",revision:"ebc870cb4717422af8aef0954b9aad10"},{url:"/ako/cashier/js/cashier.404.d5f5d3aa0d8c53532e50.js",revision:"c608575a5f0c6dfe6286e65bd478d65a"},{url:"/ako/cashier/js/cashier.cashier-app.be2b66f2395662df107d.js",revision:"e63696e632506aa942e59ae29d48b1d2"},{url:"/ako/cashier/js/cashier.js",revision:"385c05064478d23dc6e62ef3eefd0ccd"},{url:"/ako/cashier/js/cashier.loadjs.4b458ac4203eb84dc516.js",revision:"c35a80c8d8b97d9bcf1d7b535fb45842"},{url:"/ako/cashier/js/cashier.vendors-node_modules_classnames_index_js-node_modules_formik_dist_formik_esm_js-node_modules_-1f0af7.56efe8da1f0acb7f07a9.js",revision:"c839b85e0abd3aa470a1565229c3f9cd"},{url:"/ako/cashier/js/cashier.vendors-node_modules_classnames_index_js-node_modules_formik_dist_formik_esm_js-node_modules_-1f0af7.56efe8da1f0acb7f07a9.js.LICENSE.txt",revision:"c58cfc91bb8bbe8519065b059e882b75"},{url:"/ako/cashier/node_modules/@deriv/cashier/dist/cashier/css/cashier-app.43d58fb1bdff0c7dd595.css",revision:"c24992456cb3327d6022c1258ee4d248"},{url:"/ako/css/core.132.c7d8f31740102824ec94.main.css",revision:null},{url:"/ako/css/core.chunk.account-signup-modal.329e70dd3554e9f6c89b.css",revision:null},{url:"/ako/css/core.chunk.account-types-modal.1aa101ea694ce6e704bb.css",revision:null},{url:"/ako/css/core.chunk.complaints-policy.f7da2a996b45a3de793e.css",revision:null},{url:"/ako/css/core.chunk.set-residence-modal.de8efe679a545c1074fa.css",revision:null},{url:"/ako/css/core.main~182f79bf.68df88f2417139de5b87.main.css",revision:null},{url:"/ako/css/core.main~352d95fa.31d6cfe0d16ae931b73c.main.css",revision:null},{url:"/ako/css/core.main~703a1da7.31d6cfe0d16ae931b73c.main.css",revision:null},{url:"/ako/css/core.main~d5ef20ee.f6859a066ab19ccaf77c.main.css",revision:null},{url:"/ako/css/core.main~e5693c22.31d6cfe0d16ae931b73c.main.css",revision:null},{url:"/ako/css/core.main~f00f7d17.31d6cfe0d16ae931b73c.main.css",revision:null},{url:"/ako/favicon.ico",revision:"0cb8c9c65c9adde7eec4f6f79e2f4076"},{url:"/ako/js/core.132.bbb7ac752c86616e2397.js",revision:null},{url:"/ako/js/core.132.bbb7ac752c86616e2397.js.LICENSE.txt",revision:"52d07faf3fab71c4ad7e9f1a3a00aa4f"},{url:"/ako/js/core.1360.c9f1691e0c80b692bbe7.js",revision:null},{url:"/ako/js/core.1360.c9f1691e0c80b692bbe7.js.LICENSE.txt",revision:"411548f347b07fd9b880024b1215db1d"},{url:"/ako/js/core.1604.af0107699cdd8d4b7476.js",revision:null},{url:"/ako/js/core.1604.af0107699cdd8d4b7476.js.LICENSE.txt",revision:"9048b1757255eadd33395e6e79746ece"},{url:"/ako/js/core.204.8b7a19d8f18af4177488.js",revision:null},{url:"/ako/js/core.204.8b7a19d8f18af4177488.js.LICENSE.txt",revision:"c74e4063dd4a8c60ce82963c023a070e"},{url:"/ako/js/core.3190.7d76931ac4455b1d416d.js",revision:null},{url:"/ako/js/core.3733.96900e36af1143fa64ce.js",revision:null},{url:"/ako/js/core.3733.96900e36af1143fa64ce.js.LICENSE.txt",revision:"05efa0f2ef59b13b6cb1cae8031f1c52"},{url:"/ako/js/core.3806.e4c91008fba2f25d08fd.js",revision:null},{url:"/ako/js/core.3806.e4c91008fba2f25d08fd.js.LICENSE.txt",revision:"8e7fa176b006150306288bd092a696c0"},{url:"/ako/js/core.3991.ed89e7fedc65ff170a6f.js",revision:null},{url:"/ako/js/core.4162.e15bfe337fa89da729b0.js",revision:null},{url:"/ako/js/core.4162.e15bfe337fa89da729b0.js.LICENSE.txt",revision:"6fce53c7c7713ebf61712cc2929746fa"},{url:"/ako/js/core.4400.a33b556d1309c92d7009.js",revision:null},{url:"/ako/js/core.4525.6aea1cac908c26ef7b15.js",revision:null},{url:"/ako/js/core.4755.30ee9e34ead191e99dce.js",revision:null},{url:"/ako/js/core.4755.30ee9e34ead191e99dce.js.LICENSE.txt",revision:"7ec01595672f75e83fd81b41f132f4c1"},{url:"/ako/js/core.516.314933f9f0a3944d6817.js",revision:null},{url:"/ako/js/core.516.314933f9f0a3944d6817.js.LICENSE.txt",revision:"caa639c0a9c790606af088aa1f8f5c26"},{url:"/ako/js/core.8456.8de3d86bda2d8bd4f3f6.js",revision:null},{url:"/ako/js/core.8605.febabe594f4369c778ba.js",revision:null},{url:"/ako/js/core.8605.febabe594f4369c778ba.js.LICENSE.txt",revision:"52d07faf3fab71c4ad7e9f1a3a00aa4f"},{url:"/ako/js/core.9268.37bae2bbe31b0362d475.js",revision:null},{url:"/ako/js/core.935.2de574cb09d3433f1c7c.js",revision:null},{url:"/ako/js/core.935.2de574cb09d3433f1c7c.js.LICENSE.txt",revision:"e81688a9cf3aa8a7481b976f81916512"},{url:"/ako/js/core.9554.7b76e96566a00b92df37.js",revision:null},{url:"/ako/js/core.9554.7b76e96566a00b92df37.js.LICENSE.txt",revision:"a16bc6da978d0d0e93239b2ef9f7d540"},{url:"/ako/js/core.9956.ca0b464608f8be2bdffd.js",revision:null},{url:"/ako/js/core.9956.ca0b464608f8be2bdffd.js.LICENSE.txt",revision:"c47fb89f944fc413937f1d857df6495a"},{url:"/ako/js/core.account-info.44343857beef6743d3ba.js",revision:null},{url:"/ako/js/core.account-signup-modal.9c174f1ee3f7848495df.js",revision:null},{url:"/ako/js/core.account-types-modal.f1d0f65f7017861e89cb.js",revision:null},{url:"/ako/js/core.account.81fa088bd364d5e6f177.js",revision:null},{url:"/ako/js/core.ach-json.e60f8ef6a84d46dc4609.js",revision:null},{url:"/ako/js/core.bot.84d1ac2bc4d7e1bb2c2c.js",revision:null},{url:"/ako/js/core.cashier.99219469a1dca8bc6037.js",revision:null},{url:"/ako/js/core.complaints-policy.c963d93065ff9c9c9ffd.js",revision:null},{url:"/ako/js/core.dashboard~18520c0a.26cab26d8955bd067350.js.LICENSE.txt",revision:"aa95b59a41be3eb394ed43564b3486c5"},{url:"/ako/js/core.dashboard~52bcb5ca.5782d510c1dd695c9ed8.js",revision:null},{url:"/ako/js/core.es-json.c52c766196f06a7c5ac6.js",revision:null},{url:"/ako/js/core.fr-json.d1fac0b8e371f8ecab17.js",revision:null},{url:"/ako/js/core.id-json.4f47a51b46ae01633b9c.js",revision:null},{url:"/ako/js/core.it-json.d78d9badb90cfa88b279.js",revision:null},{url:"/ako/js/core.ko-json.911e1b00fa6cb25256c5.js",revision:null},{url:"/ako/js/core.main~182f79bf.bed54300295df340ce3d.js",revision:null},{url:"/ako/js/core.main~1a408eaf.d7504eb0438c6d35175b.js",revision:null},{url:"/ako/js/core.main~28ed2440.ad9d4ae86f7575f06461.js",revision:null},{url:"/ako/js/core.main~352d95fa.0f21832bbb714d1db68d.js",revision:null},{url:"/ako/js/core.main~4e43d1b7.f5921ec1912e9f3dda08.js",revision:null},{url:"/ako/js/core.main~66104539.022cf7fdcf40a209d968.js",revision:null},{url:"/ako/js/core.main~680ecc2e.f24bad04c4acccb1321e.js",revision:null},{url:"/ako/js/core.main~6b4cb1b5.0a77b154d81b2309ace1.js",revision:null},{url:"/ako/js/core.main~703a1da7.2c8a0a6e4e8c85a8a671.js",revision:null},{url:"/ako/js/core.main~85fa0c87.ca4d4f74c658b4043f2a.js",revision:null},{url:"/ako/js/core.main~9a79028c.5418b088e2b0631456a1.js",revision:null},{url:"/ako/js/core.main~9a8b795a.430e569752e53f5dd450.js",revision:null},{url:"/ako/js/core.main~a8149675.a7b60f14bb7b506413fe.js",revision:null},{url:"/ako/js/core.main~ba165128.84cf4b849b66671a4680.js",revision:null},{url:"/ako/js/core.main~cb888b8a.e80961943a45862a08e6.js",revision:null},{url:"/ako/js/core.main~cf448228.732894bfb307626f246b.js",revision:null},{url:"/ako/js/core.main~e5693c22.e053e1c0b9654ac104e0.js",revision:null},{url:"/ako/js/core.main~f00f7d17.889b162958a9a0a63ab8.js",revision:null},{url:"/ako/js/core.main~fc854bfa.a08aa1b58f3489c3e1af.js",revision:null},{url:"/ako/js/core.pl-json.363ced9f9344ec36e69b.js",revision:null},{url:"/ako/js/core.pt-json.505cc78f1b39c9b9249b.js",revision:null},{url:"/ako/js/core.reality-check-modal.50f8b5f41c33f634ba2e.js",revision:null},{url:"/ako/js/core.reset-or-unlink-password-modal.3c49efce1ae3f301a89b.js",revision:null},{url:"/ako/js/core.reset-password-modal.b14c5e1d899bc70cc42f.js",revision:null},{url:"/ako/js/core.reset-trading-password-modal.f82e97a7bf74062003fa.js",revision:null},{url:"/ako/js/core.ru-json.b1b2c74e372aced09bda.js",revision:null},{url:"/ako/js/core.set-residence-modal.84a25219314df3300881.js",revision:null},{url:"/ako/js/core.settings-language.8509d1c12baea0f27157.js",revision:null},{url:"/ako/js/core.settings-theme.13fb645b43e28b05450d.js",revision:null},{url:"/ako/js/core.th-json.0a5be18609dc3d673dbf.js",revision:null},{url:"/ako/js/core.trader~3b8e11e6.d20f04d1a1abda265a56.js",revision:null},{url:"/ako/js/core.trader~bde52cb3.f68088569ff2eed8f3f1.js",revision:null},{url:"/ako/js/core.vi-json.b2e04489cb75031104ac.js",revision:null},{url:"/ako/js/core.welcome-modal~5c04ba06.575506b2b0217e0429e9.js",revision:null},{url:"/ako/js/core.welcome-modal~734a261b.c91636dc851d81d55711.js",revision:null},{url:"/ako/js/core.welcome-modal~7a15df7a.a65880ea0618a931d7a5.js",revision:null},{url:"/ako/js/core.welcome-modal~9624755f.003d2700db84a46e8c4e.js",revision:null},{url:"/ako/js/core.welcome-modal~b407d6a8.afebc9b4642fe250a627.js",revision:null},{url:"/ako/js/core.welcome-modal~e0489f8e.7552baa18127761b011a.js",revision:null},{url:"/ako/js/core.welcome-modal~f0b1ccd8.71b40f992c7f76535f93.js",revision:null},{url:"/ako/js/core.welcome-modal~f53eb8c1.d95989b5f4cd40811b3b.js",revision:null},{url:"/ako/js/core.zh_cn-json.2b70e2377beab77a369d.js",revision:null},{url:"/ako/js/core.zh_tw-json.9a08ca6bf20163f9e0fc.js",revision:null},{url:"/ako/js/smartcharts/chartiq-4c1760.smartcharts.js",revision:"414a6a6cc193bfccdc4f677c75c8210a"},{url:"/ako/js/smartcharts/de-json-e90710.smartcharts.js",revision:"59d98e214839c53408fb9da540bf30b4"},{url:"/ako/js/smartcharts/es-json-cee29c.smartcharts.js",revision:"7eb3f137c5f5694c74e42a751afa9529"},{url:"/ako/js/smartcharts/fr-json-b4043b.smartcharts.js",revision:"b7a5abbd27adc391d1adaa237bc56127"},{url:"/ako/js/smartcharts/html2canvas-d27169.smartcharts.js",revision:"8600efa6cb9602e4e10096301691f58d"},{url:"/ako/js/smartcharts/id-json-fbfdfe.smartcharts.js",revision:"f51190fa364c02d69051e2ed3baa9431"},{url:"/ako/js/smartcharts/it-json-75ef87.smartcharts.js",revision:"ece1b222885a2b1cb7f467885a9958da"},{url:"/ako/js/smartcharts/messages-json-a6dfb1.smartcharts.js",revision:"501858b11e22b9db44db86abeac7506a"},{url:"/ako/js/smartcharts/nl-json-fdf2f8.smartcharts.js",revision:"ff408d4f6d77f1449b82c8d4f45ee6bf"},{url:"/ako/js/smartcharts/pl-json-64f900.smartcharts.js",revision:"2931a42f2def2c67ec117ca824c84ab0"},{url:"/ako/js/smartcharts/pt-json-9018ae.smartcharts.js",revision:"582bffcd1904e2c69a5d5d08f8a8e63a"},{url:"/ako/js/smartcharts/ru-json-3dd815.smartcharts.js",revision:"dc66c3d433324e1fd7c68a8188741953"},{url:"/ako/js/smartcharts/smartcharts.css",revision:"fa318d6433bc7209e64055924860a8af"},{url:"/ako/js/smartcharts/smartcharts.js",revision:"dcd77f16a58c9a22fafb02aa9797a171"},{url:"/ako/js/smartcharts/sprite-cd6ec4.smartcharts.svg",revision:"649e2664652c590f85ad04440a880e9b"},{url:"/ako/js/smartcharts/th-json-9e81f5.smartcharts.js",revision:"4b61d3bf8250fd2bb633d4840931301a"},{url:"/ako/js/smartcharts/vendors~resize-observer-polyfill-e26559.smartcharts.js",revision:"a009d6fe611787d4eee5edbfcab9930c"},{url:"/ako/js/smartcharts/vi-json-d094b7.smartcharts.js",revision:"84301d7997913c33dc248034f1d47ac9"},{url:"/ako/js/smartcharts/zh-json-bedc57.smartcharts.js",revision:"a2e8558d1f84116004d097f63076f58f"},{url:"/ako/js/smartcharts/zh_cn-json-5b266a.smartcharts.js",revision:"b0a22a81dff13a95ab53434030189555"},{url:"/ako/js/smartcharts/zh_tw-json-4c61f2.smartcharts.js",revision:"f76a84082b87528dbf55f439e03d8c13"},{url:"/ako/manifest.json",revision:"b68870915512d70cc9a15f010e5d7af4"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/1x1.gif",revision:"4b252c2abb0553eeb61ed061862f7540"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/announcement.ogg",revision:"bf20f0e94bcd21609994e7b3a2d4f056"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/break_out.png",revision:"7136a5373223a91c18286b95446f5400"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/candle_list.png",revision:"6731a9817675d2c9af92fd8f7d94f350"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/candle_list_1.png",revision:"65363b9ef41319203773a89135475380"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/check_result.png",revision:"5062d7b730603d4ff483789af756a5f0"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/click.mp3",revision:"f71910b391538a67231e088bba0d47eb"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/click.ogg",revision:"abef65ecb98a4828172f263fd5ff7064"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/click.wav",revision:"39c900d2154fec42201e998bcf305a4f"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/coins.ogg",revision:"325e609d9f1edadf54834c923661e872"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/comment-arrow-down.svg",revision:"aadef3963f6809f568d1636b18db9fc9"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/comment-arrow-up.svg",revision:"042c1606da7d32266486aa8145ea8bf1"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/compare_logic.png",revision:"4942d3e32d32c0ac27f5098c2ce2712f"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/constrain.png",revision:"0a749db62da7ef29cc882b782e6e27ed"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/continue.png",revision:"2f3fdd8055b3adf0f99ef5daf31a89d7"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/controls_for.png",revision:"b29dc93cf41b36864d794f0f0f446467"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/controls_forEach.png",revision:"9abbbb0a89b3bfd555166e6c5466ae0b"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/controls_if.png",revision:"ebb9f3b6a450a1d0321a48e3f32337b9"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/create_variable.jpg",revision:"283ae499b47bbed2275a00917059ef39"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/delete-x.svg",revision:"5a9a12bb1fe78336cae295c1746a82ce"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/delete.mp3",revision:"611d9f6a9392bb80d2000e143aa64323"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/delete.ogg",revision:"404bc7b7f1119d2eae0532a228814cf3"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/delete.wav",revision:"f079a6272c75b7ddce61f72a98a07731"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/dropdown-arrow-dark.svg",revision:"000650484bd9fc536153dc5d7d064996"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/dropdown-arrow.svg",revision:"be850da552699b8705b5902cb59c6d37"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/epoch.png",revision:"86ad967965e792168fac0c3379459015"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/extensions/microbit-block-icon.svg",revision:"762e3f99bc602ad35add07a3d34cc177"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/extensions/music-block-icon.svg",revision:"9d9e41ee9e7df510bcbb5c65cc927526"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/extensions/pen-block-icon.svg",revision:"2d0b6dcc703fcf4cdfd2c9c19c407f9f"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/extensions/wedo2-block-icon.svg",revision:"1a0ef9e4545e669d48764fc8af37adf9"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/eyedropper.svg",revision:"ad88aac393c2d7d9e88f7229ac5bcdde"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/get_candle.png",revision:"573a923a50a3b5406b104227759689b1"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/green-flag.svg",revision:"6a025d288965050155abca89738f6b10"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/handclosed.cur",revision:"6b45ea439228cba3afaa23022f1246a2"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/handdelete.cur",revision:"b0b4b0b44ed0136f7899c8b2957ca68f"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/handopen.cur",revision:"505cbb975d6102c374ec64aa92397051"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/i-am-being-serious.ogg",revision:"e30f2b4c60fe2bebd35a68e7bff30cae"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/ic-chevron-down-bold.svg",revision:"377a922e30f1374322f2b50cc4f13e2a"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/arrow.svg",revision:"e349301923b796d8dd6b56b6203c5188"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/arrow_button.svg",revision:"af12c5eec2bd1f1e25d072869364cced"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/control_forever.svg",revision:"11e7bf044cf13076eb1f9f63309017cc"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/control_repeat.svg",revision:"35db6c180f639644f5bbd79d658eaf64"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/control_stop.svg",revision:"0a513fecbaa8fb54d5d105d529f158c6"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/control_wait.svg",revision:"55c2a2baaf2a4508b7d883a71e6606fe"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/event_broadcast_blue.svg",revision:"66d4fdeb552c48adb936dd134f9a7cc3"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/event_broadcast_coral.svg",revision:"1c866d5fc9b809e085f815d4cc528c3d"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/event_broadcast_green.svg",revision:"07fc1baf5962aa6035c259dedfbdf10b"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/event_broadcast_magenta.svg",revision:"4288ba3e3534c6c3bf065f888c74276a"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/event_broadcast_orange.svg",revision:"fe7e38133cf1be78f504777da6864807"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/event_broadcast_purple.svg",revision:"97e3a8d9596074ccb0f02f888e290920"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/event_when-broadcast-received_blue.svg",revision:"a1c3ec8129337cdc6a0e00d51ba75b75"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/event_when-broadcast-received_coral.svg",revision:"5cddf42acdb787c2cf03bdd5c3507e16"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/event_when-broadcast-received_green.svg",revision:"7fdc28bcbc5bae41c0e55e8c1009bf6a"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/event_when-broadcast-received_magenta.svg",revision:"1ada6afd03b601a82d0f7650f72b39b3"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/event_when-broadcast-received_orange.svg",revision:"fcd47384fbb6dc6e136a6961b042bb0e"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/event_when-broadcast-received_purple.svg",revision:"0da127529cc813e1f615b87cdcf87d28"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/event_whenflagclicked.svg",revision:"b93d2d06ce25b6a10a8af6caac0890f3"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/remove.svg",revision:"c9b4db61d6901dc5326d8af8f00eb770"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/set-led_blue.svg",revision:"64e271cacd79c04f51e4140976ed69aa"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/set-led_coral.svg",revision:"0f819c06f38eec93562e8a7e0390aa8d"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/set-led_green.svg",revision:"95d552a2bf92aaf29ea7b7850efc1e78"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/set-led_magenta.svg",revision:"bab1714e185b0cce2134c239d7f9dad4"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/set-led_mystery.svg",revision:"7f11f033db1a2764ba822a9492113802"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/set-led_orange.svg",revision:"8b9ac813216487a8c0ab20120d55e22c"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/set-led_purple.svg",revision:"208edc4045ede72b45a4242e9237dde4"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/set-led_white.svg",revision:"a8a2fcc4c60a3c2c4a093081568c2456"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/set-led_yellow.svg",revision:"59a03bf890f2c2223b47faa092451e3c"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/wedo_motor-clockwise.svg",revision:"4829ed554af2e113d3893e7ddfcacdec"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/wedo_motor-counterclockwise.svg",revision:"ff174bda55c2cbd90fa98409845454eb"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/wedo_motor-speed_fast.svg",revision:"c6ccc23958f6f1f63bf3da24397ce6d0"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/wedo_motor-speed_med.svg",revision:"043ca7700cb3d77feb7c961e20902445"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/wedo_motor-speed_slow.svg",revision:"5d36448f0913922583b23bbda55723f6"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/wedo_when-distance_close.svg",revision:"a0a0a92846810f59ef052cea7335a80e"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/wedo_when-tilt-backward.svg",revision:"9fbb87c4587ecaf99818cf2e32aa121c"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/wedo_when-tilt-forward.svg",revision:"50ad4484043907a264ddd3d8959845c4"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/wedo_when-tilt-left.svg",revision:"e37ddacb2f596649efccf371b6ea14af"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/wedo_when-tilt-right.svg",revision:"1a3d9d81b6d8844a8a1442c4d2601861"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/icons/wedo_when-tilt.svg",revision:"eda90cb35927caf62a93effa8139cf1b"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/if-return.png",revision:"f40ad8d7911151c28c99fbb22a995ee3"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/in_candle_list_read.png",revision:"b70d2e963e038514149bd426945c5c06"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/is_candle_black.jpeg",revision:"51be3a2c0fbef85906ae894c5f9675f7"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/is_candle_black_1.jpeg",revision:"d72d98eff294937daeec896afd174776"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/job-done.ogg",revision:"c6fe905aba6de69f8458dbca11774ff2"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/logic.png",revision:"530e0991f3e7618036a777b22be9a70d"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/notify_telegram.png",revision:"49d3755ee63c99f5eb8795f7b7b0f779"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/out-of-bounds.ogg",revision:"e34801c4a60c325b6dbd89730793cb60"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/read_candle_value.png",revision:"ac13c900a08bbc2d0f52989995571f92"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/repeat.svg",revision:"faeda723162340d506d259eab15a57fc"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/repeat_until.png",revision:"fe1f767ffb1ba889fe9ce287d0b44453"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/repeat_while.png",revision:"4f5181432be99001e73dbdce8c4675bb"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/rotate-left.svg",revision:"09b2fa9a323038e25e0d71f2e204c714"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/rotate-right.svg",revision:"68c6346a929214004666a69407245ce4"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/sell_available.png",revision:"110496a9bb1c0677a704facfdaf305f8"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/sell_pl.png",revision:"57b40d0c77adefc7dd73fa96b1585b12"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/set_variable.png",revision:"8bcedb494505f49c136cb24140697d6b"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/sma_array.png",revision:"ce4d8202e8ec96c43209d1d061e673e0"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/sma_array_explanation.jpeg",revision:"79c52881f915825a5e9ed0e54b56fdc1"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/sma_block_example.png",revision:"21359adbe220385acf434fe3eef1bb76"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/sma_block_example_1.png",revision:"7d1e9625e386a0e2f253f960c884ec52"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/sma_chart_1.png",revision:"3a31f9b46813ac814bc3fb312e7361ad"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/sma_chart_2.png",revision:"7a7e8de40b21134a0be32ca8687ef689"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/sma_formula.png",revision:"15c459793534844fda8711db850b728d"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/sprites.png",revision:"525a87801f9b33ec2cf606683aefed54"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/sprites.svg",revision:"911d25e52cb1d95f2d942ec5b7670d06"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/status-not-ready.svg",revision:"f78900031c49204a86c16c7bf733b88f"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/status-ready.svg",revision:"48ce534fd447c2be7e4e914640a29f01"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/todatetime.png",revision:"abc631e876465668224030fab5b3ef5e"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/totimestamp.png",revision:"b4f4ad88b5f72780a962b0b356158bc3"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/trade_again.png",revision:"41e774083470e843152a338ccdeab9e3"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/zoom-in.svg",revision:"db8254dc60f8e2b5190a2f19440ddf74"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/zoom-out.svg",revision:"6dcc03cf4f57ffe8e5738cc0fc0ca731"},{url:"/ako/node_modules/@deriv/bot-web-ui/dist/bot/media/zoom-reset.svg",revision:"c70243f271cbeec1c06acbff9d525dd5"},{url:"/ako/node_modules/@deriv/cashier/dist/cashier/public/images/cashier-demo-dark.605d2c476f169a7b73a8c7ea5312606b.svg",revision:"d146119888cb8bab7632d8ae275185b9"},{url:"/ako/node_modules/@deriv/cashier/dist/cashier/public/images/cashier-demo-light.e69b0cb941dd65480866365959a517ae.svg",revision:"d619edec18e323c16199d19f2a09953e"},{url:"/ako/public/images/app/header/dbot-logo.svg",revision:"74dd603772623201c277552d07db9dea"},{url:"/ako/public/images/app/header/dmt5-logo.svg",revision:"bb9d72a69387257a410f35d42763287d"},{url:"/ako/public/images/app/header/dtrader-logo.svg",revision:"e0d36a7365f13540be65f2ba83781f83"},{url:"/ako/public/images/common/logos/platform_logos/ic_platform_deriv_192x192.png",revision:"8b90a2d122bd63b19b2987d8fca2c75d"},{url:"/ako/public/images/common/logos/platform_logos/ic_platform_deriv_512x512.png",revision:"cc6cdd9391b053108005c72f5dcc3a57"},{url:"/ako/public/images/common/public/images/common/static_images/404.png",revision:"b2fd89fd64d75b5b75bb7e75f2bb9029"},{url:"/ako/public/images/common/public/images/common/static_images/dp2p_banner.png",revision:"efbd723ab548be783bb6411d18cf168a"},{url:"/ako/public/images/common/welcome-bg-blue.b45a36e7985e837390d4dbec26bf1dce.svg",revision:null},{url:"/ako/public/images/common/welcome-bg-red.439aaf362ccc377e019dedcb7ddc34e0.svg",revision:null},{url:"/ako/public/images/favicons/apple-touch-icon-114.png",revision:"effff3cb7c7aa7890a0f613252d40b8c"},{url:"/ako/public/images/favicons/apple-touch-icon-120.png",revision:"30ea8aae4db71e707571a615a1207462"},{url:"/ako/public/images/favicons/apple-touch-icon-144.png",revision:"1fbf7ddfba9aa060af026c6856ffec44"},{url:"/ako/public/images/favicons/apple-touch-icon-152.png",revision:"816388a881453a30d4c2b2711fa05e64"},{url:"/ako/public/images/favicons/apple-touch-icon-180.png",revision:"a8db9d4eb2e09a4357ecd6a87a1dd6d9"},{url:"/ako/public/images/favicons/apple-touch-icon-57.png",revision:"535f09e679b29d21c3c5b9d6447d2585"},{url:"/ako/public/images/favicons/apple-touch-icon-60.png",revision:"56a21b5a2b088cbcf26912c17061b612"},{url:"/ako/public/images/favicons/apple-touch-icon-72.png",revision:"6786ed4ef1e2e96e3d4edebc3be12fd5"},{url:"/ako/public/images/favicons/apple-touch-icon-76.png",revision:"796a1bbc9a1a6ebdf0a002af495f9233"},{url:"/ako/public/images/favicons/favicon-16.png",revision:"8cf977893d6011fc63021bb7ce461544"},{url:"/ako/public/images/favicons/favicon-160.png",revision:"45fe97d84d1923f3e05626ea79971262"},{url:"/ako/public/images/favicons/favicon-192.png",revision:"3975b58ec899147249328917c81a90f4"},{url:"/ako/public/images/favicons/favicon-32.png",revision:"5bf792f88750e72e5e5ed56fc96c6efb"},{url:"/ako/public/images/favicons/favicon-96.png",revision:"bbaa020b9ae1944f52a684c311edda66"},{url:"/ako/public/images/favicons/favicon.ico",revision:"0cb8c9c65c9adde7eec4f6f79e2f4076"},{url:"/ako/public/sprites/brand.b3f15ed36d0d2db95a0646380655b7a2.svg",revision:"20ad1e2992e66ccbba6c61f2e9079be0"},{url:"/ako/public/sprites/cashier.a0f638ebf01b37bd7d737cec7838cb89.svg",revision:"dee9f848b98e034b3c4f6ce35db5023d"},{url:"/ako/public/sprites/common.949384c3edfda1ec4969d57728549436.svg",revision:"6027e262129488824f50bf3d860f49cd"},{url:"/ako/public/sprites/contract.1ca5743a5b5f7fd7201608c9301cc540.svg",revision:"b505df6ba2e73a30257f3ccb7e1af7e1"},{url:"/ako/public/sprites/currency.bb01e214db4460f58372ecb28c62765e.svg",revision:"3955f98d0403f371acffa892627a39c6"},{url:"/ako/public/sprites/dashboard.1416f37be58e2bd4617691820715c53b.svg",revision:"05ff54d36b55c456f529b2edaf1fd83f"},{url:"/ako/public/sprites/dxtrade.03a2e5ba28320b43f940ac350f9e771c.svg",revision:"7abf4c4f6c8e09c12a1e167a785a435b"},{url:"/ako/public/sprites/flag.2679f4a3231842793a9c71fec07e0f8b.svg",revision:"0b6be63adf18362585e1f439d7d20bae"},{url:"/ako/public/sprites/mt5.ea3701a12ffd3c6ed717e0b2ff16ddda.svg",revision:"2f5066c17a9731b5772fe46bbd8ad61f"},{url:"/ako/public/sprites/option.3971bb040600e58a1e30dc008551a163.svg",revision:"be90e5e9d25a16c5ebabf8c6b698dd57"},{url:"/ako/public/sprites/stock.1a672b1203ae2066f107a58ffb137c9c.svg",revision:"d8505022d6f871323ddb92c18208246a"},{url:"/ako/public/sprites/tradetype.b9ed31953cc8da3d84bafb6f5e62ee3b.svg",revision:"04d969ea5b62d0ad45915b5ace954021"},{url:"/ako/public/sprites/underlying.220e786c986ba7682fbb84bcc348afc3.svg",revision:"5ce2241583e0fe05cce6fa34b1fee27a"},{url:"/ako/public/sprites/wallet.c3f2270a81b377bd0ccc21d5547664a5.svg",revision:"495f14d4bc5d14971c151c7199ca1938"},{url:"/ako/robots.txt",revision:"089ebc0dcc218ff0acfb984a7275dff7"},{url:"/ako/sitemap.xml",revision:"4f36bf94ff485e6aeb5881b5166a137f"},{url:"/ako/trader/css/trader.cfd.623107586a796e3530c4.css",revision:"3a623d14c73cf639f5264f0209d05548"},{url:"/ako/trader/css/trader.reports.67b96fe5a3b6f4a77862.css",revision:"898f535f53d012f982cce802e6fe47bf"},{url:"/ako/trader/css/trader.screen-small.db2186ef35aaa0ac0e21.css",revision:"d7c4df8e9876b57c08b7dde80fa5b391"},{url:"/ako/trader/css/trader.trader-app.ff633467d3f4f8c54160.css",revision:"aef157c73abe70614f7843467da579fc"},{url:"/ako/trader/js/CFDStore.js",revision:"c8c6aa5852bed40bcdea8116024257c7"},{url:"/ako/trader/js/trader.Modules_Trading_Components_Form_TradeParams_Multiplier_expiration_jsx-Modules_Trading_Compone-90e657.2bf6fb9115793c55728d.js",revision:"3995eb76345aceb014c66060c0c235dc"},{url:"/ako/trader/js/trader.cfd.1d1fe4f7be81361fb0b1.js",revision:"849d6d9acecfd71f5ec42bb639af6ef0"},{url:"/ako/trader/js/trader.contract.10058bef126e00167ec4.js",revision:"af3c0b7ec5e2ac3e9e8bfd67a8e0883b"},{url:"/ako/trader/js/trader.error-component.bfcbcfac17718a184942.js",revision:"bb00d67ca034e22fdd23cea323ab36b9"},{url:"/ako/trader/js/trader.js",revision:"4e71519e2a4fc949e1941bb112ee671f"},{url:"/ako/trader/js/trader.js.LICENSE.txt",revision:"e81688a9cf3aa8a7481b976f81916512"},{url:"/ako/trader/js/trader.reports.2ce77a44a9ab79b5894c.js",revision:"05be907976d817c88f376196fefc09b4"},{url:"/ako/trader/js/trader.screen-large.26200f8557d2a9c1e20a.js",revision:"495d2c5785ef9029715e26916cc458c3"},{url:"/ako/trader/js/trader.screen-small.5f1a624194f4d1eb0bcc.js",revision:"7cb0d2e767f765ba1b97706af14a7d76"},{url:"/ako/trader/js/trader.settings-chart.d098c727d283940e6dd1.js",revision:"3ada41147601423152b525022dc20451"},{url:"/ako/trader/js/trader.trade-modals.57c4efc4b6404cdfc9a4.js",revision:"d45d86978b4342b410bacee007bdf6eb"},{url:"/ako/trader/js/trader.trader-app.7fdc5cc9f9d4887c7928.js",revision:"8b344b1d3fcedc5f261437922bb00264"},{url:"/ako/trader/js/trader.two-month-picker.59e08f165de0b35d1211.js",revision:"ee1504a006849afcf713fd085a12d8ad"},{url:"/ako/trader/js/trader.vendors-node_modules_classnames_index_js-node_modules_extend_index_js-node_modules_lodash_deb-c9ff82.11cc0aca60d74b79c282.js",revision:"05b3845de32027665983a1c74db23d43"},{url:"/ako/trader/js/trader.vendors-node_modules_classnames_index_js-node_modules_extend_index_js-node_modules_lodash_deb-c9ff82.11cc0aca60d74b79c282.js.LICENSE.txt",revision:"98e8de3c1281c14528fad52ab84e57d7"},{url:"/ako/trader/js/trader.vendors-node_modules_formik_dist_formik_esm_js.7f2e65fb2466d164b176.js",revision:"a0528fb3425ab68621f7b0957c70b8cc"},{url:"/ako/trader/js/trader.vendors-node_modules_formik_dist_formik_esm_js.7f2e65fb2466d164b176.js.LICENSE.txt",revision:"6fce53c7c7713ebf61712cc2929746fa"}],{}),e.cleanupOutdatedCaches()}));
+/**
+ * Copyright 2018 Google Inc. All Rights Reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+// If the loader is already loaded, just stop.
+if (!self.define) {
+  let registry = {};
+
+  // Used for `eval` and `importScripts` where we can't get script URL by other means.
+  // In both cases, it's safe to use a global var because those functions are synchronous.
+  let nextDefineUri;
+
+  const singleRequire = (uri, parentUri) => {
+    uri = new URL(uri + ".js", parentUri).href;
+    return registry[uri] || (
+      
+        new Promise(resolve => {
+          if ("document" in self) {
+            const script = document.createElement("script");
+            script.src = uri;
+            script.onload = resolve;
+            document.head.appendChild(script);
+          } else {
+            nextDefineUri = uri;
+            importScripts(uri);
+            resolve();
+          }
+        })
+      
+      .then(() => {
+        let promise = registry[uri];
+        if (!promise) {
+          throw new Error(`Module ${uri} didn’t register its module`);
+        }
+        return promise;
+      })
+    );
+  };
+
+  self.define = (depsNames, factory) => {
+    const uri = nextDefineUri || ("document" in self ? document.currentScript.src : "") || location.href;
+    if (registry[uri]) {
+      // Module is already loading or loaded.
+      return;
+    }
+    let exports = {};
+    const require = depUri => singleRequire(depUri, uri);
+    const specialDeps = {
+      module: { uri },
+      exports,
+      require
+    };
+    registry[uri] = Promise.all(depsNames.map(
+      depName => specialDeps[depName] || require(depName)
+    )).then(deps => {
+      factory(...deps);
+      return exports;
+    });
+  };
+}
+define(['./workbox-75e2861a'], (function (workbox) { 'use strict';
+
+  /**
+  * Welcome to your Workbox-powered service worker!
+  *
+  * You'll need to register this file in your web app.
+  * See https://goo.gl/nhQhGp
+  *
+  * The rest of the code is auto-generated. Please don't update this file
+  * directly; instead, make changes to your Workbox build configuration
+  * and re-run your build process.
+  * See https://goo.gl/2aRDsh
+  */
+
+  self.skipWaiting();
+  workbox.clientsClaim();
+  /**
+   * The precacheAndRoute() method efficiently caches and responds to
+   * requests for URLs in the manifest.
+   * See https://goo.gl/S9QRab
+   */
+
+  workbox.precacheAndRoute([{
+    "url": "/css/core.chunk.account-signup-modal.020c6fc85db4621428a2.css",
+    "revision": null
+  }, {
+    "url": "/css/core.chunk.complaints-policy.910e70714d90c104b90f.css",
+    "revision": null
+  }, {
+    "url": "/css/core.chunk.set-residence-modal.3878c29db0c68440cf97.css",
+    "revision": null
+  }, {
+    "url": "/css/core.chunk.trader~account_dist_account_css_reset-trading-password-modal_css_f1c880d2.15d2a40d139e511a9b36.css",
+    "revision": null
+  }, {
+    "url": "/css/core.main~A.6cf44e0241fe256d342f.main.css",
+    "revision": null
+  }, {
+    "url": "/css/core.main~c.698bf0199d5d8698d258.main.css",
+    "revision": null
+  }, {
+    "url": "/css/core.main~components_src_components_a.8e42499aa758731f60f5.main.css",
+    "revision": null
+  }, {
+    "url": "/css/core.main~components_src_components_c.c0290feba952cbc60f33.main.css",
+    "revision": null
+  }, {
+    "url": "/css/core.main~components_src_components_l.14782cf6c05efa781b94.main.css",
+    "revision": null
+  }, {
+    "url": "/css/core.main~s.4ead8e2b3f537727e2b0.main.css",
+    "revision": null
+  }, {
+    "url": "/css/core.vendors-node_modules_deriv_deriv-api_dist_DerivAPIBasic_js-node_modules_deriv_deriv-onboardin-a0d54e.cadae8f178c6e1cf3a92.main.css",
+    "revision": null
+  }, {
+    "url": "/favicon.ico",
+    "revision": "0cb8c9c65c9adde7eec4f6f79e2f4076"
+  }, {
+    "url": "/js/core.account-info.64507c487fc6cf413bae.js",
+    "revision": null
+  }, {
+    "url": "/js/core.account-signup-modal.0bf20dd54373172ae1a1.js",
+    "revision": null
+  }, {
+    "url": "/js/core.account.96bd35c888fe46ff24ed.js",
+    "revision": null
+  }, {
+    "url": "/js/core.bot.723a1414ea1192eca388.js",
+    "revision": null
+  }, {
+    "url": "/js/core.cashier.40672de1614152aebd68.js",
+    "revision": null
+  }, {
+    "url": "/js/core.close-mx-mlt-account-modal.0cd318d88ca63b88f9b8.js",
+    "revision": null
+  }, {
+    "url": "/js/core.complaints-policy.f8d60d14ccb2661c7478.js",
+    "revision": null
+  }, {
+    "url": "/js/core.dashboard~Modules_Dashboard_d.161a32cb8a2071684301.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~App_C.c332d28c5eaa200bce42.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~App_Components_E.2d3f19f18b8337d65303.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~App_Cons.a6fc12625d17cb406c5f.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~As.46d95bc6db18bfc88e6e.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~Se.636cf82d89e2f72bd8a2.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~Stores_b.c4b116cb2063f32595d8.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~Stores_m.156ab3f723b964a9fa1c.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~U.180d60e19c0d7e17325b.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~account_dist_account_js_a.b38bf0997e36a20bbebd.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~account_dist_account_js_account-limits_js_501e634c.b95e14550a55a826bfee.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~account_dist_account_js_address-details_js_0928415f.f30f1e6232349f1f7fe0.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~account_dist_account_js_api-token_js_a71678f7.9efd762fa4d7820ee7a1.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~account_dist_account_js_currency-selector_js_f2f9c8d9.0bd47ab30d7ee4227478.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~account_dist_account_js_financial-details_js_0e7eaa58.78882f2944efa79f0a57.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~account_dist_account_js_personal-details_js_21b2d6f5.3a2a4de52067033cee2a.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~account_dist_account_js_self-exclusion_js_6be4b9cc.509e14e017f09ac88736.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~account_dist_account_js_terms-of-use_js_d9e09153.ee71893178d513acdc4a.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~c.99d7b7d0f3d3770c10db.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~cashier_dist_cashier_js_cashier-store_js_77e8332f.f5f6d1cee14dcbdb04e2.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~components_src_components_a.671e708af814aa0ee4f8.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~components_src_components_c.cf6e3edb030afe809ff4.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~components_src_components_l.945123cd9952dd176856.js",
+    "revision": null
+  }, {
+    "url": "/js/core.main~s.c2120e598d0aa4a90b61.js",
+    "revision": null
+  }, {
+    "url": "/js/core.reality-check-modal.8044bad13a05cbf9cb7e.js",
+    "revision": null
+  }, {
+    "url": "/js/core.reset-or-unlink-password-modal.6973f0e2668f5b77eae0.js",
+    "revision": null
+  }, {
+    "url": "/js/core.reset-password-modal.80ddfad053201bf18fd3.js",
+    "revision": null
+  }, {
+    "url": "/js/core.set-residence-modal.36f0ad598fafa6b0ee65.js",
+    "revision": null
+  }, {
+    "url": "/js/core.settings-language.0d9e5d41574c893b998a.js",
+    "revision": null
+  }, {
+    "url": "/js/core.settings-theme.e819158d8444add02ba5.js",
+    "revision": null
+  }, {
+    "url": "/js/core.trader~account_dist_account_c.2d9be1ab5c5e0012b033.js",
+    "revision": null
+  }, {
+    "url": "/js/core.trader~account_dist_account_js_file-uploader-container_js_ad032b75.039bc6d96e57cbb83636.js",
+    "revision": null
+  }, {
+    "url": "/js/core.trader~account_dist_account_js_reset-trading-password-modal_js_ff517517.6bdf0d2c235919fccf4d.js",
+    "revision": null
+  }, {
+    "url": "/js/core.trader~trader_dist_trader_js_trader_js_4e59f282.3e10966a3f13ca4910d7.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_babel_runtime_helpers_esm_classCallCheck_js-node_modules_babel_runtime_h-3d3940.473c33983ddda9fd7e22.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_contentpass_zxcvbn_lib_frequency_lists_js.6314af75fb93509061cc.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_contentpass_zxcvbn_lib_main_js.3a05d03cce725e083ad0.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_core-js_fn_regexp_escape_js-node_modules_core-js_shim_js-node_modules_cr-1e24ef.3b686c610fd60f309ecb.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_deriv_deriv-api_dist_DerivAPIBasic_js-node_modules_deriv_deriv-onboardin-a0d54e.ca2db2faaa338bc9e273.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_deriv_web-push-notifications_lib_index_js.92fb9ed685b50f883fa9.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_emotion_hash_dist_hash_esm_js-node_modules_emotion_is-prop-valid_dist_is-e15e80.7d06998544e51dcc483c.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_file-selector_dist_es5_index_js-node_modules_focus-lock_dist_es2015_inde-625d6f.feefdd81550a3c43b198.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_is-callable_index_js-node_modules_is-date-object_index_js-node_modules_i-b97f84.a7f9f7a3a1c36df7364a.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_mobx-react_dist_mobxreact_esm_js.87b4d875089a458dda75.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_moment_moment_js.2b343aa5843cc44c1241.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_object-assign_index_js-node_modules_object-inspect_index_js-node_modules-a2e9f6.c8b898779f67b1253d28.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_promise-polyfill_src_index_js-node_modules_prop-types_index_js.fdc0cf9268af1329294b.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_raf_index_js-node_modules_react-content-loader_dist_react-content-loader-0730e5.4f10c21178c24308d8b8.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_react-lifecycles-compat_react-lifecycles-compat_es_js-node_modules_react-4a5024.4cbc5565da8f764351ef.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_react-router-dom_esm_react-router-dom_js-node_modules_react-swipeable_es-5aae27.4dea8fc9a920fba8ea41.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_react-transition-group_esm_CSSTransition_js-node_modules_react-transitio-85c8d7.8ab018279d2840385aed.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_react-transition-group_esm_index_js.d54ad15d43b684d1aa4f.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_react_index_js.3601c738eaa45b80a31c.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_rooks_use-mutation-observer_lib_index_esm_js-node_modules_scheduler_inde-a1a9fe.0fab8890286b3c87df23.js",
+    "revision": null
+  }, {
+    "url": "/js/core.vendors-node_modules_scroll-smooth_dist_index_js-node_modules_scrollparent_scrollparent_js-no-e650d6.407c5934054cd6dc8079.js",
+    "revision": null
+  }, {
+    "url": "/js/core.welcome-modal~Ap.09d2d33e0188f5f53d60.js",
+    "revision": null
+  }, {
+    "url": "/js/core.welcome-modal~Assets_SvgComponents_onboarding_cfds_svg_af25ac66.f5ae4bce4b6e7a30efdb.js",
+    "revision": null
+  }, {
+    "url": "/js/core.welcome-modal~Assets_SvgComponents_onboarding_digital-options-mobile_svg_a765406b.183a67b6aa6cec801c56.js",
+    "revision": null
+  }, {
+    "url": "/js/core.welcome-modal~Assets_SvgComponents_onboarding_digital-options_svg_6a6a8cad.c437c56a6f6ff6d841bb.js",
+    "revision": null
+  }, {
+    "url": "/js/core.welcome-modal~Assets_SvgComponents_onboarding_multipliers-mobile_svg_48db1f53.41820f31f50e1ccc7849.js",
+    "revision": null
+  }, {
+    "url": "/js/core.welcome-modal~Assets_SvgComponents_onboarding_multipliers_svg_67df4c4b.848e7fa7dee65b5616b1.js",
+    "revision": null
+  }, {
+    "url": "/js/core.welcome-modal~Assets_SvgComponents_onboarding_not-sure-mobile_svg_9ad91f0b.541a0fefc44e187ee1ee.js",
+    "revision": null
+  }, {
+    "url": "/js/core.welcome-modal~Assets_SvgComponents_onboarding_not-sure_svg_a469acfa.cb2f5ac67d91008a4c45.js",
+    "revision": null
+  }, {
+    "url": "/public/images/app/header/dbot-logo.svg",
+    "revision": "74dd603772623201c277552d07db9dea"
+  }, {
+    "url": "/public/images/app/header/dmt5-logo.svg",
+    "revision": "bb9d72a69387257a410f35d42763287d"
+  }, {
+    "url": "/public/images/app/header/dtrader-logo.svg",
+    "revision": "e0d36a7365f13540be65f2ba83781f83"
+  }, {
+    "url": "/public/images/common/404.png",
+    "revision": "b2fd89fd64d75b5b75bb7e75f2bb9029"
+  }, {
+    "url": "/public/images/common/close_account_banner.png",
+    "revision": "47457964f57828ac882a49dcd4009a1d"
+  }, {
+    "url": "/public/images/common/derivgo_banner.png",
+    "revision": "cfa6bac9d229ecf1a60adcf0f9c283f9"
+  }, {
+    "url": "/public/images/common/dp2p_banner.png",
+    "revision": "efbd723ab548be783bb6411d18cf168a"
+  }, {
+    "url": "/public/images/common/ke_alien_card.png",
+    "revision": "8fc3d3345db92d1333e59a72ba5be769"
+  }, {
+    "url": "/public/images/common/ke_national_identity_card.png",
+    "revision": "3d54bcbb6a019c272e28b15601774a2a"
+  }, {
+    "url": "/public/images/common/ke_passport.png",
+    "revision": "d111da0604e97583feb278a206c8c5c3"
+  }, {
+    "url": "/public/images/common/logos/platform_logos/ic_platform_deriv_192x192.png",
+    "revision": "8b90a2d122bd63b19b2987d8fca2c75d"
+  }, {
+    "url": "/public/images/common/logos/platform_logos/ic_platform_deriv_512x512.png",
+    "revision": "cc6cdd9391b053108005c72f5dcc3a57"
+  }, {
+    "url": "/public/images/common/ng_drivers_license.png",
+    "revision": "ad0c31da5da08e640308d2ea3447b681"
+  }, {
+    "url": "/public/images/common/ng_nin_slip.png",
+    "revision": "d743586bddc5ddd91e0bb820f0718597"
+  }, {
+    "url": "/public/images/common/ng_voter_id.png",
+    "revision": "47f0de9fd4bf1da1b9bda784889d7fd0"
+  }, {
+    "url": "/public/images/common/welcome-bg-blue.b45a36e7985e837390d4dbec26bf1dce.svg",
+    "revision": "d3de1dd75990ffc283952ec5e747d03c"
+  }, {
+    "url": "/public/images/common/welcome-bg-red.439aaf362ccc377e019dedcb7ddc34e0.svg",
+    "revision": "f4e868a5a4c6bdab25fab2aaa04dbac5"
+  }, {
+    "url": "/public/images/common/za_national_identity_card.png",
+    "revision": "48c0447163401fe1d2705072a7f1c9e8"
+  }, {
+    "url": "/public/images/favicons/apple-touch-icon-114.png",
+    "revision": "effff3cb7c7aa7890a0f613252d40b8c"
+  }, {
+    "url": "/public/images/favicons/apple-touch-icon-120.png",
+    "revision": "30ea8aae4db71e707571a615a1207462"
+  }, {
+    "url": "/public/images/favicons/apple-touch-icon-144.png",
+    "revision": "1fbf7ddfba9aa060af026c6856ffec44"
+  }, {
+    "url": "/public/images/favicons/apple-touch-icon-152.png",
+    "revision": "816388a881453a30d4c2b2711fa05e64"
+  }, {
+    "url": "/public/images/favicons/apple-touch-icon-180.png",
+    "revision": "a8db9d4eb2e09a4357ecd6a87a1dd6d9"
+  }, {
+    "url": "/public/images/favicons/apple-touch-icon-57.png",
+    "revision": "535f09e679b29d21c3c5b9d6447d2585"
+  }, {
+    "url": "/public/images/favicons/apple-touch-icon-60.png",
+    "revision": "56a21b5a2b088cbcf26912c17061b612"
+  }, {
+    "url": "/public/images/favicons/apple-touch-icon-72.png",
+    "revision": "6786ed4ef1e2e96e3d4edebc3be12fd5"
+  }, {
+    "url": "/public/images/favicons/apple-touch-icon-76.png",
+    "revision": "796a1bbc9a1a6ebdf0a002af495f9233"
+  }, {
+    "url": "/public/images/favicons/favicon-16.png",
+    "revision": "8cf977893d6011fc63021bb7ce461544"
+  }, {
+    "url": "/public/images/favicons/favicon-160.png",
+    "revision": "45fe97d84d1923f3e05626ea79971262"
+  }, {
+    "url": "/public/images/favicons/favicon-192.png",
+    "revision": "3975b58ec899147249328917c81a90f4"
+  }, {
+    "url": "/public/images/favicons/favicon-32.png",
+    "revision": "5bf792f88750e72e5e5ed56fc96c6efb"
+  }, {
+    "url": "/public/images/favicons/favicon-96.png",
+    "revision": "bbaa020b9ae1944f52a684c311edda66"
+  }, {
+    "url": "/public/images/favicons/favicon.ico",
+    "revision": "0cb8c9c65c9adde7eec4f6f79e2f4076"
+  }, {
+    "url": "/public/sprites/brand.b3f15ed36d0d2db95a0646380655b7a2.svg",
+    "revision": "20ad1e2992e66ccbba6c61f2e9079be0"
+  }, {
+    "url": "/public/sprites/cashier.fc27bfcd5a3e8e0a2d2ffe74ae797e0d.svg",
+    "revision": "e511f5dcb9dca4f2cef7659855a3888a"
+  }, {
+    "url": "/public/sprites/common.00fd6367b4c3950bd4c31ccd68f82612.svg",
+    "revision": "5bf540b50a8bfb7ab22ab823b895bf79"
+  }, {
+    "url": "/public/sprites/contract.1ca5743a5b5f7fd7201608c9301cc540.svg",
+    "revision": "b505df6ba2e73a30257f3ccb7e1af7e1"
+  }, {
+    "url": "/public/sprites/currency.bb01e214db4460f58372ecb28c62765e.svg",
+    "revision": "3955f98d0403f371acffa892627a39c6"
+  }, {
+    "url": "/public/sprites/dashboard.1416f37be58e2bd4617691820715c53b.svg",
+    "revision": "05ff54d36b55c456f529b2edaf1fd83f"
+  }, {
+    "url": "/public/sprites/dxtrade.3a8eee97254a48a1ca9cff7ba17491c8.svg",
+    "revision": "177fb07c55e16c9e2f392e73fca70a89"
+  }, {
+    "url": "/public/sprites/flag.2679f4a3231842793a9c71fec07e0f8b.svg",
+    "revision": "0b6be63adf18362585e1f439d7d20bae"
+  }, {
+    "url": "/public/sprites/mt5.9eefdebfceac37a07bc45349dfcb533f.svg",
+    "revision": "c7c45ecc8d96bafbcd71b31389e3d078"
+  }, {
+    "url": "/public/sprites/option.3971bb040600e58a1e30dc008551a163.svg",
+    "revision": "be90e5e9d25a16c5ebabf8c6b698dd57"
+  }, {
+    "url": "/public/sprites/stock.1a672b1203ae2066f107a58ffb137c9c.svg",
+    "revision": "d8505022d6f871323ddb92c18208246a"
+  }, {
+    "url": "/public/sprites/tradetype.b9ed31953cc8da3d84bafb6f5e62ee3b.svg",
+    "revision": "04d969ea5b62d0ad45915b5ace954021"
+  }, {
+    "url": "/public/sprites/underlying.2c20ddec26f1393de401939ec8967e1c.svg",
+    "revision": "5d71ad1dad2983330f5f2e0202f27c14"
+  }, {
+    "url": "/public/sprites/wallet.04e5a96d8a64d80ba390218d17c0a487.svg",
+    "revision": "a385d07b496daa519f7d61ca8cda77df"
+  }], {});
+  workbox.cleanupOutdatedCaches();
+
+}));
+//# sourceMappingURL=service-worker.js.map
