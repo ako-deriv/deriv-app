@@ -20142,7 +20142,7 @@ module.exports = {"red":"#ff444f","light_chart_text":"#555975","dark_chart_text"
 module.exports = {
       id: "ic-bchusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-bchusd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-bchusd-usage",
       toString: function () {
         return this.url;
       }
@@ -20160,7 +20160,7 @@ module.exports = {
 module.exports = {
       id: "ic-bnbusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-bnbusd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-bnbusd-usage",
       toString: function () {
         return this.url;
       }
@@ -20178,7 +20178,7 @@ module.exports = {
 module.exports = {
       id: "ic-btceth-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-btceth-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-btceth-usage",
       toString: function () {
         return this.url;
       }
@@ -20196,7 +20196,7 @@ module.exports = {
 module.exports = {
       id: "ic-btcltc-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-btcltc-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-btcltc-usage",
       toString: function () {
         return this.url;
       }
@@ -20214,7 +20214,7 @@ module.exports = {
 module.exports = {
       id: "ic-btcusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-btcusd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-btcusd-usage",
       toString: function () {
         return this.url;
       }
@@ -20232,7 +20232,7 @@ module.exports = {
 module.exports = {
       id: "ic-dshusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-dshusd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-dshusd-usage",
       toString: function () {
         return this.url;
       }
@@ -20250,7 +20250,7 @@ module.exports = {
 module.exports = {
       id: "ic-eosusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-eosusd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-eosusd-usage",
       toString: function () {
         return this.url;
       }
@@ -20268,7 +20268,7 @@ module.exports = {
 module.exports = {
       id: "ic-ethusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-ethusd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-ethusd-usage",
       toString: function () {
         return this.url;
       }
@@ -20286,7 +20286,7 @@ module.exports = {
 module.exports = {
       id: "ic-iotusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-iotusd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-iotusd-usage",
       toString: function () {
         return this.url;
       }
@@ -20304,7 +20304,7 @@ module.exports = {
 module.exports = {
       id: "ic-ltcusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-ltcusd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-ltcusd-usage",
       toString: function () {
         return this.url;
       }
@@ -20322,7 +20322,7 @@ module.exports = {
 module.exports = {
       id: "ic-neousd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-neousd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-neousd-usage",
       toString: function () {
         return this.url;
       }
@@ -20340,7 +20340,7 @@ module.exports = {
 module.exports = {
       id: "ic-omgusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-omgusd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-omgusd-usage",
       toString: function () {
         return this.url;
       }
@@ -20358,7 +20358,7 @@ module.exports = {
 module.exports = {
       id: "ic-trxusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-trxusd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-trxusd-usage",
       toString: function () {
         return this.url;
       }
@@ -20376,7 +20376,7 @@ module.exports = {
 module.exports = {
       id: "ic-xlmusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-xlmusd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-xlmusd-usage",
       toString: function () {
         return this.url;
       }
@@ -20394,7 +20394,7 @@ module.exports = {
 module.exports = {
       id: "ic-xmrusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-xmrusd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-xmrusd-usage",
       toString: function () {
         return this.url;
       }
@@ -20412,7 +20412,7 @@ module.exports = {
 module.exports = {
       id: "ic-xrpusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-xrpusd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-xrpusd-usage",
       toString: function () {
         return this.url;
       }
@@ -20430,7 +20430,7 @@ module.exports = {
 module.exports = {
       id: "ic-zecusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-zecusd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-zecusd-usage",
       toString: function () {
         return this.url;
       }
@@ -20448,7 +20448,7 @@ module.exports = {
 module.exports = {
       id: "ic-oilusd-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-oilusd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-oilusd-usage",
       toString: function () {
         return this.url;
       }
@@ -20466,7 +20466,7 @@ module.exports = {
 module.exports = {
       id: "ic-otcbadge-usage",
       viewBox: "0 0 13 9",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-otcbadge-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-otcbadge-usage",
       toString: function () {
         return this.url;
       }
@@ -20484,7 +20484,7 @@ module.exports = {
 module.exports = {
       id: "ic-smartfx-placeholder-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-smartfx-placeholder-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-smartfx-placeholder-usage",
       toString: function () {
         return this.url;
       }
@@ -20502,7 +20502,7 @@ module.exports = {
 module.exports = {
       id: "ic-metal-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-metal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-metal-usage",
       toString: function () {
         return this.url;
       }
@@ -20510,35 +20510,35 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./sass/icons/active-symbols/volatility/10 index/ic-10-index.svg":
-/*!***********************************************************************!*\
-  !*** ./sass/icons/active-symbols/volatility/10 index/ic-10-index.svg ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = {
-      id: "ic-10-index-usage",
-      viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-10-index-usage",
-      toString: function () {
-        return this.url;
-      }
-    }
-
-/***/ }),
-
-/***/ "./sass/icons/active-symbols/volatility/100 index/ic-100-index.svg":
+/***/ "./sass/icons/active-symbols/volatility/10 index/ic-10-index-v.svg":
 /*!*************************************************************************!*\
-  !*** ./sass/icons/active-symbols/volatility/100 index/ic-100-index.svg ***!
+  !*** ./sass/icons/active-symbols/volatility/10 index/ic-10-index-v.svg ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-      id: "ic-100-index-usage",
+      id: "ic-10-index-v-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-100-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-10-index-v-usage",
+      toString: function () {
+        return this.url;
+      }
+    }
+
+/***/ }),
+
+/***/ "./sass/icons/active-symbols/volatility/100 index/ic-100-index-v.svg":
+/*!***************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/100 index/ic-100-index-v.svg ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = {
+      id: "ic-100-index-v-usage",
+      viewBox: "0 0 32 32",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-100-index-v-usage",
       toString: function () {
         return this.url;
       }
@@ -20556,7 +20556,7 @@ module.exports = {
 module.exports = {
       id: "ic-10-1s-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-10-1s-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-10-1s-index-usage",
       toString: function () {
         return this.url;
       }
@@ -20574,7 +20574,7 @@ module.exports = {
 module.exports = {
       id: "ic-100-1s-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-100-1s-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-100-1s-index-usage",
       toString: function () {
         return this.url;
       }
@@ -20592,7 +20592,7 @@ module.exports = {
 module.exports = {
       id: "ic-200-1s-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-200-1s-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-200-1s-index-usage",
       toString: function () {
         return this.url;
       }
@@ -20610,7 +20610,7 @@ module.exports = {
 module.exports = {
       id: "light-25(1s)index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#light-25(1s)index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#light-25(1s)index-usage",
       toString: function () {
         return this.url;
       }
@@ -20628,7 +20628,7 @@ module.exports = {
 module.exports = {
       id: "ic-300-1s-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-300-1s-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-300-1s-index-usage",
       toString: function () {
         return this.url;
       }
@@ -20646,7 +20646,7 @@ module.exports = {
 module.exports = {
       id: "light-50(1s) index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#light-50(1s) index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#light-50(1s) index-usage",
       toString: function () {
         return this.url;
       }
@@ -20664,7 +20664,7 @@ module.exports = {
 module.exports = {
       id: "light-75(1s) index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#light-75(1s) index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#light-75(1s) index-usage",
       toString: function () {
         return this.url;
       }
@@ -20672,17 +20672,17 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./sass/icons/active-symbols/volatility/25 index/ic-25-index.svg":
-/*!***********************************************************************!*\
-  !*** ./sass/icons/active-symbols/volatility/25 index/ic-25-index.svg ***!
-  \***********************************************************************/
+/***/ "./sass/icons/active-symbols/volatility/25 index/ic-25-index-v.svg":
+/*!*************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/25 index/ic-25-index-v.svg ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-      id: "ic-25-index-usage",
+      id: "ic-25-index-v-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-25-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-25-index-v-usage",
       toString: function () {
         return this.url;
       }
@@ -20690,17 +20690,17 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./sass/icons/active-symbols/volatility/50 index/ic-50-index.svg":
-/*!***********************************************************************!*\
-  !*** ./sass/icons/active-symbols/volatility/50 index/ic-50-index.svg ***!
-  \***********************************************************************/
+/***/ "./sass/icons/active-symbols/volatility/50 index/ic-50-index-v.svg":
+/*!*************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/50 index/ic-50-index-v.svg ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-      id: "ic-50-index-usage",
+      id: "ic-50-index-v-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-50-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-50-index-v-usage",
       toString: function () {
         return this.url;
       }
@@ -20708,17 +20708,17 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./sass/icons/active-symbols/volatility/75 index/ic-75-index.svg":
-/*!***********************************************************************!*\
-  !*** ./sass/icons/active-symbols/volatility/75 index/ic-75-index.svg ***!
-  \***********************************************************************/
+/***/ "./sass/icons/active-symbols/volatility/75 index/ic-75-index-v.svg":
+/*!*************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/75 index/ic-75-index-v.svg ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-      id: "ic-75-index-usage",
+      id: "ic-75-index-v-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-75-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-75-index-v-usage",
       toString: function () {
         return this.url;
       }
@@ -20736,7 +20736,7 @@ module.exports = {
 module.exports = {
       id: "ic-marketbear-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-marketbear-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-marketbear-usage",
       toString: function () {
         return this.url;
       }
@@ -20754,7 +20754,7 @@ module.exports = {
 module.exports = {
       id: "boom1000 index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#boom1000 index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#boom1000 index-usage",
       toString: function () {
         return this.url;
       }
@@ -20772,7 +20772,7 @@ module.exports = {
 module.exports = {
       id: "boom300 index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#boom300 index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#boom300 index-usage",
       toString: function () {
         return this.url;
       }
@@ -20790,7 +20790,7 @@ module.exports = {
 module.exports = {
       id: "boom500 index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#boom500 index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#boom500 index-usage",
       toString: function () {
         return this.url;
       }
@@ -20808,7 +20808,7 @@ module.exports = {
 module.exports = {
       id: "ic-marketbull-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-marketbull-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-marketbull-usage",
       toString: function () {
         return this.url;
       }
@@ -20826,7 +20826,7 @@ module.exports = {
 module.exports = {
       id: "crash1000 index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#crash1000 index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#crash1000 index-usage",
       toString: function () {
         return this.url;
       }
@@ -20844,7 +20844,7 @@ module.exports = {
 module.exports = {
       id: "crash300 index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#crash300 index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#crash300 index-usage",
       toString: function () {
         return this.url;
       }
@@ -20862,7 +20862,7 @@ module.exports = {
 module.exports = {
       id: "crash500 index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#crash500 index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#crash500 index-usage",
       toString: function () {
         return this.url;
       }
@@ -20880,7 +20880,7 @@ module.exports = {
 module.exports = {
       id: "ic-10-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-10-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-10-index-usage",
       toString: function () {
         return this.url;
       }
@@ -20898,7 +20898,7 @@ module.exports = {
 module.exports = {
       id: "ic-100-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-100-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-100-index-usage",
       toString: function () {
         return this.url;
       }
@@ -20916,7 +20916,7 @@ module.exports = {
 module.exports = {
       id: "ic-150-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-150-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-150-index-usage",
       toString: function () {
         return this.url;
       }
@@ -20934,7 +20934,7 @@ module.exports = {
 module.exports = {
       id: "ic-200-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-200-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-200-index-usage",
       toString: function () {
         return this.url;
       }
@@ -20952,7 +20952,7 @@ module.exports = {
 module.exports = {
       id: "ic-25-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-25-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-25-index-usage",
       toString: function () {
         return this.url;
       }
@@ -20970,7 +20970,7 @@ module.exports = {
 module.exports = {
       id: "ic-50-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-50-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-50-index-usage",
       toString: function () {
         return this.url;
       }
@@ -20988,7 +20988,7 @@ module.exports = {
 module.exports = {
       id: "ic-75-index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-75-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-75-index-usage",
       toString: function () {
         return this.url;
       }
@@ -21006,7 +21006,7 @@ module.exports = {
 module.exports = {
       id: "step index-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#step index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#step index-usage",
       toString: function () {
         return this.url;
       }
@@ -21024,7 +21024,7 @@ module.exports = {
 module.exports = {
       id: "error-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#error-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#error-usage",
       toString: function () {
         return this.url;
       }
@@ -21042,7 +21042,7 @@ module.exports = {
 module.exports = {
       id: "info-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#info-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#info-usage",
       toString: function () {
         return this.url;
       }
@@ -21060,7 +21060,7 @@ module.exports = {
 module.exports = {
       id: "success-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#success-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#success-usage",
       toString: function () {
         return this.url;
       }
@@ -21078,7 +21078,7 @@ module.exports = {
 module.exports = {
       id: "warning-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#warning-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#warning-usage",
       toString: function () {
         return this.url;
       }
@@ -21096,7 +21096,7 @@ module.exports = {
 module.exports = {
       id: "ic-arrow-green-usage",
       viewBox: "0 0 22 31",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-arrow-green-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-arrow-green-usage",
       toString: function () {
         return this.url;
       }
@@ -21114,7 +21114,7 @@ module.exports = {
 module.exports = {
       id: "ic-arrow-orange-usage",
       viewBox: "0 0 22 31",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-arrow-orange-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-arrow-orange-usage",
       toString: function () {
         return this.url;
       }
@@ -21132,7 +21132,7 @@ module.exports = {
 module.exports = {
       id: "ic-back-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-back-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-back-usage",
       toString: function () {
         return this.url;
       }
@@ -21150,7 +21150,7 @@ module.exports = {
 module.exports = {
       id: "ic-baseline-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-baseline-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-baseline-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21168,7 +21168,7 @@ module.exports = {
 module.exports = {
       id: "ic-candle-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-candle-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-candle-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21186,7 +21186,7 @@ module.exports = {
 module.exports = {
       id: "ic-dot-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-dot-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-dot-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21204,7 +21204,7 @@ module.exports = {
 module.exports = {
       id: "ic-hollowcandle-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-hollowcandle-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-hollowcandle-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21222,7 +21222,7 @@ module.exports = {
 module.exports = {
       id: "ic-heikin-ashi-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-heikin-ashi-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-heikin-ashi-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21240,7 +21240,7 @@ module.exports = {
 module.exports = {
       id: "ic-kagi-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-kagi-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-kagi-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21258,7 +21258,7 @@ module.exports = {
 module.exports = {
       id: "ic-linebreak-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-linebreak-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-linebreak-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21276,7 +21276,7 @@ module.exports = {
 module.exports = {
       id: "ic-pointfigure-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-pointfigure-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-pointfigure-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21294,7 +21294,7 @@ module.exports = {
 module.exports = {
       id: "ic-rangebars-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-rangebars-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-rangebars-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21312,7 +21312,7 @@ module.exports = {
 module.exports = {
       id: "ic-renko-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-renko-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-renko-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21330,7 +21330,7 @@ module.exports = {
 module.exports = {
       id: "ic-linedot-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-linedot-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-linedot-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21348,7 +21348,7 @@ module.exports = {
 module.exports = {
       id: "ic-line-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-line-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-line-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21366,7 +21366,7 @@ module.exports = {
 module.exports = {
       id: "ic-ohlc-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-ohlc-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-ohlc-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21384,7 +21384,7 @@ module.exports = {
 module.exports = {
       id: "ic-spline-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-spline-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-spline-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21402,7 +21402,7 @@ module.exports = {
 module.exports = {
       id: "table-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#table-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#table-usage",
       toString: function () {
         return this.url;
       }
@@ -21420,7 +21420,7 @@ module.exports = {
 module.exports = {
       id: "ic-comparison-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-comparison-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-comparison-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21438,7 +21438,7 @@ module.exports = {
 module.exports = {
       id: "ic-crosshair-off-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-crosshair-off-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-crosshair-off-usage",
       toString: function () {
         return this.url;
       }
@@ -21456,7 +21456,7 @@ module.exports = {
 module.exports = {
       id: "ic-crosshair-on-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-crosshair-on-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-crosshair-on-usage",
       toString: function () {
         return this.url;
       }
@@ -21474,7 +21474,7 @@ module.exports = {
 module.exports = {
       id: "ic-crosshair-tooltip-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-crosshair-tooltip-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-crosshair-tooltip-usage",
       toString: function () {
         return this.url;
       }
@@ -21492,7 +21492,7 @@ module.exports = {
 module.exports = {
       id: "ic-drawingtools-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-drawingtools-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-drawingtools-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -21510,7 +21510,7 @@ module.exports = {
 module.exports = {
       id: "ic-position-bottom-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-position-bottom-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-position-bottom-usage",
       toString: function () {
         return this.url;
       }
@@ -21528,7 +21528,7 @@ module.exports = {
 module.exports = {
       id: "ic-position-left-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-position-left-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-position-left-usage",
       toString: function () {
         return this.url;
       }
@@ -21546,7 +21546,7 @@ module.exports = {
 module.exports = {
       id: "ic-zoomin-light-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-zoomin-light-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-zoomin-light-usage",
       toString: function () {
         return this.url;
       }
@@ -21564,7 +21564,7 @@ module.exports = {
 module.exports = {
       id: "ic-zoomout-light-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-zoomout-light-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-zoomout-light-usage",
       toString: function () {
         return this.url;
       }
@@ -21582,7 +21582,7 @@ module.exports = {
 module.exports = {
       id: "ic-area-grayscale-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-area-grayscale-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-area-grayscale-usage",
       toString: function () {
         return this.url;
       }
@@ -21600,7 +21600,7 @@ module.exports = {
 module.exports = {
       id: "ic-area-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-area-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-area-usage",
       toString: function () {
         return this.url;
       }
@@ -21618,7 +21618,7 @@ module.exports = {
 module.exports = {
       id: "ic-candle-grayscale-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-candle-grayscale-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-candle-grayscale-usage",
       toString: function () {
         return this.url;
       }
@@ -21636,7 +21636,7 @@ module.exports = {
 module.exports = {
       id: "ic-candle-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-candle-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-candle-usage",
       toString: function () {
         return this.url;
       }
@@ -21654,7 +21654,7 @@ module.exports = {
 module.exports = {
       id: "ic-hollow-grayscale-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-hollow-grayscale-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-hollow-grayscale-usage",
       toString: function () {
         return this.url;
       }
@@ -21672,7 +21672,7 @@ module.exports = {
 module.exports = {
       id: "ic-hollow-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-hollow-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-hollow-usage",
       toString: function () {
         return this.url;
       }
@@ -21690,7 +21690,7 @@ module.exports = {
 module.exports = {
       id: "ic-ohlc-grayscale-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-ohlc-grayscale-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-ohlc-grayscale-usage",
       toString: function () {
         return this.url;
       }
@@ -21708,7 +21708,7 @@ module.exports = {
 module.exports = {
       id: "ic-ohlc-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-ohlc-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-ohlc-usage",
       toString: function () {
         return this.url;
       }
@@ -21726,7 +21726,7 @@ module.exports = {
 module.exports = {
       id: "ic-down-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-down-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-down-usage",
       toString: function () {
         return this.url;
       }
@@ -21744,7 +21744,7 @@ module.exports = {
 module.exports = {
       id: "ic-maximize-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-maximize-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-maximize-usage",
       toString: function () {
         return this.url;
       }
@@ -21762,7 +21762,7 @@ module.exports = {
 module.exports = {
       id: "resize-icon-usage",
       viewBox: "0 0 6 14",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#resize-icon-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#resize-icon-usage",
       toString: function () {
         return this.url;
       }
@@ -21780,7 +21780,7 @@ module.exports = {
 module.exports = {
       id: "ic-clear-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-clear-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-clear-usage",
       toString: function () {
         return this.url;
       }
@@ -21798,7 +21798,7 @@ module.exports = {
 module.exports = {
       id: "ic-close-bold-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-close-bold-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-close-bold-usage",
       toString: function () {
         return this.url;
       }
@@ -21816,7 +21816,7 @@ module.exports = {
 module.exports = {
       id: "ic-close-circle-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-close-circle-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-close-circle-usage",
       toString: function () {
         return this.url;
       }
@@ -21834,7 +21834,7 @@ module.exports = {
 module.exports = {
       id: "full-screen-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#full-screen-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#full-screen-usage",
       toString: function () {
         return this.url;
       }
@@ -21852,7 +21852,7 @@ module.exports = {
 module.exports = {
       id: "ic-active-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-active-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-active-usage",
       toString: function () {
         return this.url;
       }
@@ -21870,7 +21870,7 @@ module.exports = {
 module.exports = {
       id: "ic-add-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-add-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-add-usage",
       toString: function () {
         return this.url;
       }
@@ -21888,7 +21888,7 @@ module.exports = {
 module.exports = {
       id: "ic-charts-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-charts-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-charts-usage",
       toString: function () {
         return this.url;
       }
@@ -21906,7 +21906,7 @@ module.exports = {
 module.exports = {
       id: "ic-checkbox-active-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-checkbox-active-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-checkbox-active-usage",
       toString: function () {
         return this.url;
       }
@@ -21924,7 +21924,7 @@ module.exports = {
 module.exports = {
       id: "ic-checkbox-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-checkbox-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-checkbox-usage",
       toString: function () {
         return this.url;
       }
@@ -21942,7 +21942,7 @@ module.exports = {
 module.exports = {
       id: "ic-close-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-close-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-close-usage",
       toString: function () {
         return this.url;
       }
@@ -21960,7 +21960,7 @@ module.exports = {
 module.exports = {
       id: "ic-download-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-download-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-download-usage",
       toString: function () {
         return this.url;
       }
@@ -21978,7 +21978,7 @@ module.exports = {
 module.exports = {
       id: "ic-drawing-tool-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-drawing-tool-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-drawing-tool-usage",
       toString: function () {
         return this.url;
       }
@@ -21996,7 +21996,7 @@ module.exports = {
 module.exports = {
       id: "ic-help-center-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-help-center-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-help-center-usage",
       toString: function () {
         return this.url;
       }
@@ -22014,7 +22014,7 @@ module.exports = {
 module.exports = {
       id: "ic-indicators-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-indicators-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-indicators-usage",
       toString: function () {
         return this.url;
       }
@@ -22032,7 +22032,7 @@ module.exports = {
 module.exports = {
       id: "ic-info-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-info-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-info-usage",
       toString: function () {
         return this.url;
       }
@@ -22050,7 +22050,7 @@ module.exports = {
 module.exports = {
       id: "ic-input-number-minus-usage",
       viewBox: "0 0 8 8",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-input-number-minus-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-input-number-minus-usage",
       toString: function () {
         return this.url;
       }
@@ -22068,7 +22068,7 @@ module.exports = {
 module.exports = {
       id: "ic-input-number-plus-usage",
       viewBox: "0 0 8 8",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-input-number-plus-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-input-number-plus-usage",
       toString: function () {
         return this.url;
       }
@@ -22086,7 +22086,7 @@ module.exports = {
 module.exports = {
       id: "ic-language-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-language-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-language-usage",
       toString: function () {
         return this.url;
       }
@@ -22104,7 +22104,7 @@ module.exports = {
 module.exports = {
       id: "ic-minimize-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-minimize-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-minimize-usage",
       toString: function () {
         return this.url;
       }
@@ -22122,7 +22122,7 @@ module.exports = {
 module.exports = {
       id: "ic-templates-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-templates-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-templates-usage",
       toString: function () {
         return this.url;
       }
@@ -22140,7 +22140,7 @@ module.exports = {
 module.exports = {
       id: "ic-theme-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-theme-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-theme-usage",
       toString: function () {
         return this.url;
       }
@@ -22158,7 +22158,7 @@ module.exports = {
 module.exports = {
       id: "ic-delete-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-delete-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-delete-usage",
       toString: function () {
         return this.url;
       }
@@ -22176,7 +22176,7 @@ module.exports = {
 module.exports = {
       id: "ic-csv-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-csv-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-csv-usage",
       toString: function () {
         return this.url;
       }
@@ -22194,7 +22194,7 @@ module.exports = {
 module.exports = {
       id: "ic-png-usage",
       viewBox: "0 0 32 32",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-png-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-png-usage",
       toString: function () {
         return this.url;
       }
@@ -22212,7 +22212,7 @@ module.exports = {
 module.exports = {
       id: "ic-channel-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-channel-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-channel-usage",
       toString: function () {
         return this.url;
       }
@@ -22230,7 +22230,7 @@ module.exports = {
 module.exports = {
       id: "ic-continuous-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-continuous-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-continuous-usage",
       toString: function () {
         return this.url;
       }
@@ -22248,7 +22248,7 @@ module.exports = {
 module.exports = {
       id: "ic-fibonacci-fan-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-fibonacci-fan-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-fibonacci-fan-usage",
       toString: function () {
         return this.url;
       }
@@ -22266,7 +22266,7 @@ module.exports = {
 module.exports = {
       id: "ic-horizontal-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-horizontal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-horizontal-usage",
       toString: function () {
         return this.url;
       }
@@ -22284,7 +22284,7 @@ module.exports = {
 module.exports = {
       id: "ic-line-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-line-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-line-usage",
       toString: function () {
         return this.url;
       }
@@ -22302,7 +22302,7 @@ module.exports = {
 module.exports = {
       id: "ic-ray-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-ray-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-ray-usage",
       toString: function () {
         return this.url;
       }
@@ -22320,7 +22320,7 @@ module.exports = {
 module.exports = {
       id: "ic-rectangle-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-rectangle-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-rectangle-usage",
       toString: function () {
         return this.url;
       }
@@ -22338,7 +22338,7 @@ module.exports = {
 module.exports = {
       id: "ic-trend-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-trend-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-trend-usage",
       toString: function () {
         return this.url;
       }
@@ -22356,7 +22356,7 @@ module.exports = {
 module.exports = {
       id: "ic-vertical-usage",
       viewBox: "0 0 24 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-vertical-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-vertical-usage",
       toString: function () {
         return this.url;
       }
@@ -22374,7 +22374,7 @@ module.exports = {
 module.exports = {
       id: "ic-dropdown-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-dropdown-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-dropdown-usage",
       toString: function () {
         return this.url;
       }
@@ -22392,7 +22392,7 @@ module.exports = {
 module.exports = {
       id: "ic-edit-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-edit-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-edit-usage",
       toString: function () {
         return this.url;
       }
@@ -22410,7 +22410,7 @@ module.exports = {
 module.exports = {
       id: "ic-favorite-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-favorite-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-favorite-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -22428,7 +22428,7 @@ module.exports = {
 module.exports = {
       id: "aud-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#aud-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#aud-usage",
       toString: function () {
         return this.url;
       }
@@ -22446,7 +22446,7 @@ module.exports = {
 module.exports = {
       id: "cad-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#cad-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#cad-usage",
       toString: function () {
         return this.url;
       }
@@ -22464,7 +22464,7 @@ module.exports = {
 module.exports = {
       id: "chf-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#chf-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#chf-usage",
       toString: function () {
         return this.url;
       }
@@ -22482,7 +22482,7 @@ module.exports = {
 module.exports = {
       id: "chinese-traditional-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#chinese-traditional-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#chinese-traditional-usage",
       toString: function () {
         return this.url;
       }
@@ -22500,7 +22500,7 @@ module.exports = {
 module.exports = {
       id: "chinese-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#chinese-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#chinese-usage",
       toString: function () {
         return this.url;
       }
@@ -22518,7 +22518,7 @@ module.exports = {
 module.exports = {
       id: "dutch-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#dutch-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#dutch-usage",
       toString: function () {
         return this.url;
       }
@@ -22536,7 +22536,7 @@ module.exports = {
 module.exports = {
       id: "eur-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#eur-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#eur-usage",
       toString: function () {
         return this.url;
       }
@@ -22554,7 +22554,7 @@ module.exports = {
 module.exports = {
       id: "french-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#french-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#french-usage",
       toString: function () {
         return this.url;
       }
@@ -22572,7 +22572,7 @@ module.exports = {
 module.exports = {
       id: "gbp-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#gbp-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#gbp-usage",
       toString: function () {
         return this.url;
       }
@@ -22590,7 +22590,7 @@ module.exports = {
 module.exports = {
       id: "german-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#german-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#german-usage",
       toString: function () {
         return this.url;
       }
@@ -22608,7 +22608,7 @@ module.exports = {
 module.exports = {
       id: "hong kong-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#hong kong-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#hong kong-usage",
       toString: function () {
         return this.url;
       }
@@ -22626,7 +22626,7 @@ module.exports = {
 module.exports = {
       id: "indonesia-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#indonesia-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#indonesia-usage",
       toString: function () {
         return this.url;
       }
@@ -22644,7 +22644,7 @@ module.exports = {
 module.exports = {
       id: "italy-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#italy-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#italy-usage",
       toString: function () {
         return this.url;
       }
@@ -22662,7 +22662,7 @@ module.exports = {
 module.exports = {
       id: "jpy-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#jpy-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#jpy-usage",
       toString: function () {
         return this.url;
       }
@@ -22680,7 +22680,7 @@ module.exports = {
 module.exports = {
       id: "mxn-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#mxn-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#mxn-usage",
       toString: function () {
         return this.url;
       }
@@ -22698,7 +22698,7 @@ module.exports = {
 module.exports = {
       id: "nok-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#nok-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#nok-usage",
       toString: function () {
         return this.url;
       }
@@ -22716,7 +22716,7 @@ module.exports = {
 module.exports = {
       id: "nzd-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#nzd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#nzd-usage",
       toString: function () {
         return this.url;
       }
@@ -22734,7 +22734,7 @@ module.exports = {
 module.exports = {
       id: "pln-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#pln-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#pln-usage",
       toString: function () {
         return this.url;
       }
@@ -22752,7 +22752,7 @@ module.exports = {
 module.exports = {
       id: "portugal-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#portugal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#portugal-usage",
       toString: function () {
         return this.url;
       }
@@ -22770,7 +22770,7 @@ module.exports = {
 module.exports = {
       id: "russia-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#russia-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#russia-usage",
       toString: function () {
         return this.url;
       }
@@ -22788,7 +22788,7 @@ module.exports = {
 module.exports = {
       id: "sek-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#sek-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#sek-usage",
       toString: function () {
         return this.url;
       }
@@ -22806,7 +22806,7 @@ module.exports = {
 module.exports = {
       id: "spanish-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#spanish-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#spanish-usage",
       toString: function () {
         return this.url;
       }
@@ -22824,7 +22824,7 @@ module.exports = {
 module.exports = {
       id: "thailand-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#thailand-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#thailand-usage",
       toString: function () {
         return this.url;
       }
@@ -22842,7 +22842,7 @@ module.exports = {
 module.exports = {
       id: "usd-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#usd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#usd-usage",
       toString: function () {
         return this.url;
       }
@@ -22860,7 +22860,7 @@ module.exports = {
 module.exports = {
       id: "vietnam-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#vietnam-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#vietnam-usage",
       toString: function () {
         return this.url;
       }
@@ -22878,7 +22878,7 @@ module.exports = {
 module.exports = {
       id: "wallstreet-usage",
       viewBox: "0 0 24 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#wallstreet-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#wallstreet-usage",
       toString: function () {
         return this.url;
       }
@@ -22896,7 +22896,7 @@ module.exports = {
 module.exports = {
       id: "xau-usage",
       viewBox: "0 0 8 8",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#xau-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#xau-usage",
       toString: function () {
         return this.url;
       }
@@ -22914,7 +22914,7 @@ module.exports = {
 module.exports = {
       id: "ic-adx-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-adx-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-adx-usage",
       toString: function () {
         return this.url;
       }
@@ -22932,7 +22932,7 @@ module.exports = {
 module.exports = {
       id: "ic-alligator-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-alligator-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-alligator-usage",
       toString: function () {
         return this.url;
       }
@@ -22950,7 +22950,7 @@ module.exports = {
 module.exports = {
       id: "ic-aroon-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-aroon-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-aroon-usage",
       toString: function () {
         return this.url;
       }
@@ -22968,7 +22968,7 @@ module.exports = {
 module.exports = {
       id: "ic-averages-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-averages-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-averages-usage",
       toString: function () {
         return this.url;
       }
@@ -22986,7 +22986,7 @@ module.exports = {
 module.exports = {
       id: "ic-awesome-oscillator-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-awesome-oscillator-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-awesome-oscillator-usage",
       toString: function () {
         return this.url;
       }
@@ -23004,7 +23004,7 @@ module.exports = {
 module.exports = {
       id: "ic-bollinger-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-bollinger-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-bollinger-usage",
       toString: function () {
         return this.url;
       }
@@ -23022,7 +23022,7 @@ module.exports = {
 module.exports = {
       id: "ic-cat-averages-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-cat-averages-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-cat-averages-usage",
       toString: function () {
         return this.url;
       }
@@ -23040,7 +23040,7 @@ module.exports = {
 module.exports = {
       id: "ic-commodity-channel-index-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-commodity-channel-index-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-commodity-channel-index-usage",
       toString: function () {
         return this.url;
       }
@@ -23058,7 +23058,7 @@ module.exports = {
 module.exports = {
       id: "ic-donchian-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-donchian-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-donchian-usage",
       toString: function () {
         return this.url;
       }
@@ -23076,7 +23076,7 @@ module.exports = {
 module.exports = {
       id: "ic-dtrended-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-dtrended-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-dtrended-usage",
       toString: function () {
         return this.url;
       }
@@ -23094,7 +23094,7 @@ module.exports = {
 module.exports = {
       id: "ic-envelope-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-envelope-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-envelope-usage",
       toString: function () {
         return this.url;
       }
@@ -23112,7 +23112,7 @@ module.exports = {
 module.exports = {
       id: "ic-fractal-chaos-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-fractal-chaos-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-fractal-chaos-usage",
       toString: function () {
         return this.url;
       }
@@ -23130,7 +23130,7 @@ module.exports = {
 module.exports = {
       id: "ic-gator-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-gator-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-gator-usage",
       toString: function () {
         return this.url;
       }
@@ -23148,7 +23148,7 @@ module.exports = {
 module.exports = {
       id: "ic-ichimoku-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-ichimoku-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-ichimoku-usage",
       toString: function () {
         return this.url;
       }
@@ -23166,7 +23166,7 @@ module.exports = {
 module.exports = {
       id: "ic-macd-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-macd-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-macd-usage",
       toString: function () {
         return this.url;
       }
@@ -23184,7 +23184,7 @@ module.exports = {
 module.exports = {
       id: "ic-momentum-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-momentum-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-momentum-usage",
       toString: function () {
         return this.url;
       }
@@ -23202,7 +23202,7 @@ module.exports = {
 module.exports = {
       id: "ic-other-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-other-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-other-usage",
       toString: function () {
         return this.url;
       }
@@ -23220,7 +23220,7 @@ module.exports = {
 module.exports = {
       id: "ic-parabolic-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-parabolic-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-parabolic-usage",
       toString: function () {
         return this.url;
       }
@@ -23238,7 +23238,7 @@ module.exports = {
 module.exports = {
       id: "ic-rainbow-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-rainbow-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-rainbow-usage",
       toString: function () {
         return this.url;
       }
@@ -23256,7 +23256,7 @@ module.exports = {
 module.exports = {
       id: "ic-rate-of-change-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-rate-of-change-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-rate-of-change-usage",
       toString: function () {
         return this.url;
       }
@@ -23274,7 +23274,7 @@ module.exports = {
 module.exports = {
       id: "ic-rsi-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-rsi-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-rsi-usage",
       toString: function () {
         return this.url;
       }
@@ -23292,7 +23292,7 @@ module.exports = {
 module.exports = {
       id: "ic-stochastic-momentum-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-stochastic-momentum-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-stochastic-momentum-usage",
       toString: function () {
         return this.url;
       }
@@ -23310,7 +23310,7 @@ module.exports = {
 module.exports = {
       id: "ic-stochastic-oscillator-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-stochastic-oscillator-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-stochastic-oscillator-usage",
       toString: function () {
         return this.url;
       }
@@ -23328,7 +23328,7 @@ module.exports = {
 module.exports = {
       id: "ic-trend-dark-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-trend-dark-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-trend-dark-usage",
       toString: function () {
         return this.url;
       }
@@ -23346,7 +23346,7 @@ module.exports = {
 module.exports = {
       id: "ic-trend-light-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-trend-light-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-trend-light-usage",
       toString: function () {
         return this.url;
       }
@@ -23364,7 +23364,7 @@ module.exports = {
 module.exports = {
       id: "ic-volatility-usage",
       viewBox: "0 0 17 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-volatility-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-volatility-usage",
       toString: function () {
         return this.url;
       }
@@ -23382,7 +23382,7 @@ module.exports = {
 module.exports = {
       id: "ic-william-percent-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-william-percent-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-william-percent-usage",
       toString: function () {
         return this.url;
       }
@@ -23400,7 +23400,7 @@ module.exports = {
 module.exports = {
       id: "ic-zig-zag-usage",
       viewBox: "0 0 25 24",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-zig-zag-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-zig-zag-usage",
       toString: function () {
         return this.url;
       }
@@ -23418,7 +23418,7 @@ module.exports = {
 module.exports = {
       id: "ic-measure-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-measure-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-measure-usage",
       toString: function () {
         return this.url;
       }
@@ -23436,7 +23436,7 @@ module.exports = {
 module.exports = {
       id: "ic-home-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-home-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-home-usage",
       toString: function () {
         return this.url;
       }
@@ -23454,7 +23454,7 @@ module.exports = {
 module.exports = {
       id: "ic-scale-full-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-scale-full-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-scale-full-usage",
       toString: function () {
         return this.url;
       }
@@ -23472,7 +23472,7 @@ module.exports = {
 module.exports = {
       id: "ic-zoomin-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-zoomin-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-zoomin-usage",
       toString: function () {
         return this.url;
       }
@@ -23490,7 +23490,7 @@ module.exports = {
 module.exports = {
       id: "ic-zoomout-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-zoomout-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-zoomout-usage",
       toString: function () {
         return this.url;
       }
@@ -23508,7 +23508,7 @@ module.exports = {
 module.exports = {
       id: "ic-pencil-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-pencil-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-pencil-usage",
       toString: function () {
         return this.url;
       }
@@ -23526,7 +23526,7 @@ module.exports = {
 module.exports = {
       id: "ic-placeholder-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-placeholder-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-placeholder-usage",
       toString: function () {
         return this.url;
       }
@@ -23544,7 +23544,7 @@ module.exports = {
 module.exports = {
       id: "ic-search-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-search-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-search-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -23562,7 +23562,7 @@ module.exports = {
 module.exports = {
       id: "ic-countdown-dark-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-countdown-dark-active-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-countdown-dark-active-usage",
       toString: function () {
         return this.url;
       }
@@ -23580,7 +23580,7 @@ module.exports = {
 module.exports = {
       id: "ic-countdown-dark-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-countdown-dark-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-countdown-dark-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -23598,7 +23598,7 @@ module.exports = {
 module.exports = {
       id: "ic-countdown-light-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-countdown-light-active-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-countdown-light-active-usage",
       toString: function () {
         return this.url;
       }
@@ -23616,7 +23616,7 @@ module.exports = {
 module.exports = {
       id: "ic-countdown-light-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-countdown-light-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-countdown-light-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -23634,7 +23634,7 @@ module.exports = {
 module.exports = {
       id: "ic-highest-lowest-dark-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-highest-lowest-dark-active-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-highest-lowest-dark-active-usage",
       toString: function () {
         return this.url;
       }
@@ -23652,7 +23652,7 @@ module.exports = {
 module.exports = {
       id: "ic-highest-lowest-dark-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-highest-lowest-dark-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-highest-lowest-dark-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -23670,7 +23670,7 @@ module.exports = {
 module.exports = {
       id: "ic-highest-lowest-light-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-highest-lowest-light-active-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-highest-lowest-light-active-usage",
       toString: function () {
         return this.url;
       }
@@ -23688,7 +23688,7 @@ module.exports = {
 module.exports = {
       id: "ic-highest-lowest-light-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-highest-lowest-light-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-highest-lowest-light-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -23706,7 +23706,7 @@ module.exports = {
 module.exports = {
       id: "ic-historical-dark-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-historical-dark-active-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-historical-dark-active-usage",
       toString: function () {
         return this.url;
       }
@@ -23724,7 +23724,7 @@ module.exports = {
 module.exports = {
       id: "ic-historical-dark-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-historical-dark-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-historical-dark-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -23742,7 +23742,7 @@ module.exports = {
 module.exports = {
       id: "ic-historical-light-active-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-historical-light-active-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-historical-light-active-usage",
       toString: function () {
         return this.url;
       }
@@ -23760,7 +23760,7 @@ module.exports = {
 module.exports = {
       id: "ic-historical-light-normal-usage",
       viewBox: "0 0 160 120",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-historical-light-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-historical-light-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -23778,7 +23778,7 @@ module.exports = {
 module.exports = {
       id: "ic-theme-dark-usage",
       viewBox: "0 0 236 180",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-theme-dark-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-theme-dark-usage",
       toString: function () {
         return this.url;
       }
@@ -23796,7 +23796,7 @@ module.exports = {
 module.exports = {
       id: "ic-theme-light-usage",
       viewBox: "0 0 236 180",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-theme-light-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-theme-light-usage",
       toString: function () {
         return this.url;
       }
@@ -23814,7 +23814,7 @@ module.exports = {
 module.exports = {
       id: "ic-empty-state-usage",
       viewBox: "0 0 128 118",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-empty-state-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-empty-state-usage",
       toString: function () {
         return this.url;
       }
@@ -23832,7 +23832,7 @@ module.exports = {
 module.exports = {
       id: "ic-overwrite-state-usage",
       viewBox: "0 0 128 128",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-overwrite-state-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-overwrite-state-usage",
       toString: function () {
         return this.url;
       }
@@ -23850,7 +23850,7 @@ module.exports = {
 module.exports = {
       id: "ic-commodities-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-commodities-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-commodities-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -23868,7 +23868,7 @@ module.exports = {
 module.exports = {
       id: "ic-cryptocurrency-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-cryptocurrency-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-cryptocurrency-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -23886,7 +23886,7 @@ module.exports = {
 module.exports = {
       id: "ic-forex-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-forex-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-forex-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -23904,7 +23904,7 @@ module.exports = {
 module.exports = {
       id: "ic-indices-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-indices-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-indices-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -23922,7 +23922,7 @@ module.exports = {
 module.exports = {
       id: "ic-otc-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-otc-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-otc-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -23940,7 +23940,7 @@ module.exports = {
 module.exports = {
       id: "ic-synth-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-synth-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-synth-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -23958,7 +23958,7 @@ module.exports = {
 module.exports = {
       id: "ic-volatility-normal-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-volatility-normal-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-volatility-normal-usage",
       toString: function () {
         return this.url;
       }
@@ -23976,7 +23976,7 @@ module.exports = {
 module.exports = {
       id: "ic-tick-usage",
       viewBox: "0 0 16 16",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-tick-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-tick-usage",
       toString: function () {
         return this.url;
       }
@@ -23994,7 +23994,7 @@ module.exports = {
 module.exports = {
       id: "ic-time-usage",
       viewBox: "0 0 12 12",
-      url: __webpack_require__.p + "sprite-a249f3.smartcharts.svg#ic-time-usage",
+      url: __webpack_require__.p + "sprite-aa59b4.smartcharts.svg#ic-time-usage",
       toString: function () {
         return this.url;
       }
@@ -24607,16 +24607,18 @@ var Translation = /*#__PURE__*/function () {
 
   _createClass(Translation, [{
     key: "setLanguage",
-    value: function setLanguage(lang) {
+    value: function setLanguage(lang, callback) {
       var _this = this;
 
       if (lang_map[lang] || lang === 'en') {
         this.lang = lang;
+        callback === null || callback === void 0 ? void 0 : callback();
       } else {
         __webpack_require__("./translation lazy recursive ^\\.\\/.*\\.json$")("./".concat(lang, ".json")).then(function (imported_lang) {
           if (imported_lang) {
             lang_map[lang] = imported_lang["default"];
             _this.lang = lang;
+            callback === null || callback === void 0 ? void 0 : callback();
           } else {
             console.error('Unsupported language:', lang);
           }
@@ -27089,6 +27091,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _store_Connect__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../store/Connect */ "./src/store/Connect.js");
 /* harmony import */ var _utils_ga__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../utils/ga */ "./src/utils/ga.js");
 /* harmony import */ var _PaginationLoader_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./PaginationLoader.jsx */ "./src/components/PaginationLoader.jsx");
+/* harmony import */ var _hooks__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../hooks */ "./src/hooks/index.js");
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -27119,6 +27122,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 
+
 var Chart = function Chart(props) {
   var _classNames2;
 
@@ -27136,6 +27140,15 @@ var Chart = function Chart(props) {
       props.destroy();
     }; // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+  var prevLang = Object(_hooks__WEBPACK_IMPORTED_MODULE_19__["usePrevious"])(t.lang);
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
+    if (prevLang && prevLang !== t.lang && !isLoading) {
+      var _props$showChart;
+
+      (_props$showChart = props.showChart) === null || _props$showChart === void 0 ? void 0 : _props$showChart.call(props);
+    } // eslint-disable-next-line react-hooks/exhaustive-deps
+
+  }, [t.lang]);
   react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
     var updateProps = props.updateProps,
         init = props.init,
@@ -27268,6 +27281,7 @@ var Chart = function Chart(props) {
     position: chartSetting.position,
     isHighestLowestMarkerEnabled: chartSetting.isHighestLowestMarkerEnabled,
     isLoading: loader.isActive,
+    showChart: loader.show,
     PredictionIndicatorDialog: timeperiod.PredictionIndicatorDialog
   };
 })(Chart));
@@ -28019,11 +28033,13 @@ var Crosshair = function Crosshair() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* WEBPACK VAR INJECTION */(function(t) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _store_Connect__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../store/Connect */ "./src/store/Connect.js");
 /* harmony import */ var _Icons_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Icons.jsx */ "./src/components/Icons.jsx");
 /* harmony import */ var _Form_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Form.jsx */ "./src/components/Form.jsx");
+/* harmony import */ var _Tooltip_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Tooltip.jsx */ "./src/components/Tooltip.jsx");
+
 
 
 
@@ -28035,8 +28051,10 @@ var CrosshairToggle = function CrosshairToggle(_ref) {
       onChange = _ref.onChange,
       updateProps = _ref.updateProps,
       _ref$isVisible = _ref.isVisible,
-      isVisible = _ref$isVisible === void 0 ? true : _ref$isVisible;
+      isVisible = _ref$isVisible === void 0 ? true : _ref$isVisible,
+      isMobile = _ref.isMobile;
   var CrosshairIcon = [_Icons_jsx__WEBPACK_IMPORTED_MODULE_2__["CrosshairOffIcon"], _Icons_jsx__WEBPACK_IMPORTED_MODULE_2__["CrosshairOnIcon"], _Icons_jsx__WEBPACK_IMPORTED_MODULE_2__["CrosshairTooltipIcon"]][state];
+  var labels = [t.translate("Don't show price info on chart"), t.translate('Show price info on x & y axes'), t.translate('Show price info on chart')];
 
   var onCrosshairToggle = function onCrosshairToggle() {
     setCrosshairState((state + 1) % 3);
@@ -28044,20 +28062,27 @@ var CrosshairToggle = function CrosshairToggle(_ref) {
 
   updateProps(onChange);
   if (!isVisible) return null;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Form_jsx__WEBPACK_IMPORTED_MODULE_3__["Toggle"], {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Tooltip_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    content: labels[state],
+    enabled: !isMobile,
+    position: "right"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Form_jsx__WEBPACK_IMPORTED_MODULE_3__["Toggle"], {
     active: state !== 0,
     onChange: onCrosshairToggle
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CrosshairIcon, null));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CrosshairIcon, null)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(_store_Connect__WEBPACK_IMPORTED_MODULE_1__["connect"])(function (_ref2) {
-  var crosshair = _ref2.crosshair;
+  var chart = _ref2.chart,
+      crosshair = _ref2.crosshair;
   return {
     state: typeof crosshair.state !== 'number' ? 0 : crosshair.state,
     setCrosshairState: crosshair.setCrosshairState,
-    updateProps: crosshair.updateProps
+    updateProps: crosshair.updateProps,
+    isMobile: chart.isMobile
   };
 })(CrosshairToggle));
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./src/Translation.js */ "./src/Translation.js")["t"]))
 
 /***/ }),
 
@@ -29626,16 +29651,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_icons_active_symbols_energy_oil_usd_ic_oilusd_svg__WEBPACK_IMPORTED_MODULE_105___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_energy_oil_usd_ic_oilusd_svg__WEBPACK_IMPORTED_MODULE_105__);
 /* harmony import */ var _sass_icons_active_symbols_metals_ic_metal_svg__WEBPACK_IMPORTED_MODULE_106__ = __webpack_require__(/*! ../../sass/icons/active-symbols/metals/ic-metal.svg */ "./sass/icons/active-symbols/metals/ic-metal.svg");
 /* harmony import */ var _sass_icons_active_symbols_metals_ic_metal_svg__WEBPACK_IMPORTED_MODULE_106___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_metals_ic_metal_svg__WEBPACK_IMPORTED_MODULE_106__);
-/* harmony import */ var _sass_icons_active_symbols_volatility_10_index_ic_10_index_svg__WEBPACK_IMPORTED_MODULE_107__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/10 index/ic-10-index.svg */ "./sass/icons/active-symbols/volatility/10 index/ic-10-index.svg");
-/* harmony import */ var _sass_icons_active_symbols_volatility_10_index_ic_10_index_svg__WEBPACK_IMPORTED_MODULE_107___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_10_index_ic_10_index_svg__WEBPACK_IMPORTED_MODULE_107__);
-/* harmony import */ var _sass_icons_active_symbols_volatility_25_index_ic_25_index_svg__WEBPACK_IMPORTED_MODULE_108__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/25 index/ic-25-index.svg */ "./sass/icons/active-symbols/volatility/25 index/ic-25-index.svg");
-/* harmony import */ var _sass_icons_active_symbols_volatility_25_index_ic_25_index_svg__WEBPACK_IMPORTED_MODULE_108___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_25_index_ic_25_index_svg__WEBPACK_IMPORTED_MODULE_108__);
-/* harmony import */ var _sass_icons_active_symbols_volatility_50_index_ic_50_index_svg__WEBPACK_IMPORTED_MODULE_109__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/50 index/ic-50-index.svg */ "./sass/icons/active-symbols/volatility/50 index/ic-50-index.svg");
-/* harmony import */ var _sass_icons_active_symbols_volatility_50_index_ic_50_index_svg__WEBPACK_IMPORTED_MODULE_109___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_50_index_ic_50_index_svg__WEBPACK_IMPORTED_MODULE_109__);
-/* harmony import */ var _sass_icons_active_symbols_volatility_75_index_ic_75_index_svg__WEBPACK_IMPORTED_MODULE_110__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/75 index/ic-75-index.svg */ "./sass/icons/active-symbols/volatility/75 index/ic-75-index.svg");
-/* harmony import */ var _sass_icons_active_symbols_volatility_75_index_ic_75_index_svg__WEBPACK_IMPORTED_MODULE_110___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_75_index_ic_75_index_svg__WEBPACK_IMPORTED_MODULE_110__);
-/* harmony import */ var _sass_icons_active_symbols_volatility_100_index_ic_100_index_svg__WEBPACK_IMPORTED_MODULE_111__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/100 index/ic-100-index.svg */ "./sass/icons/active-symbols/volatility/100 index/ic-100-index.svg");
-/* harmony import */ var _sass_icons_active_symbols_volatility_100_index_ic_100_index_svg__WEBPACK_IMPORTED_MODULE_111___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_100_index_ic_100_index_svg__WEBPACK_IMPORTED_MODULE_111__);
+/* harmony import */ var _sass_icons_active_symbols_volatility_10_index_ic_10_index_v_svg__WEBPACK_IMPORTED_MODULE_107__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/10 index/ic-10-index-v.svg */ "./sass/icons/active-symbols/volatility/10 index/ic-10-index-v.svg");
+/* harmony import */ var _sass_icons_active_symbols_volatility_10_index_ic_10_index_v_svg__WEBPACK_IMPORTED_MODULE_107___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_10_index_ic_10_index_v_svg__WEBPACK_IMPORTED_MODULE_107__);
+/* harmony import */ var _sass_icons_active_symbols_volatility_25_index_ic_25_index_v_svg__WEBPACK_IMPORTED_MODULE_108__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/25 index/ic-25-index-v.svg */ "./sass/icons/active-symbols/volatility/25 index/ic-25-index-v.svg");
+/* harmony import */ var _sass_icons_active_symbols_volatility_25_index_ic_25_index_v_svg__WEBPACK_IMPORTED_MODULE_108___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_25_index_ic_25_index_v_svg__WEBPACK_IMPORTED_MODULE_108__);
+/* harmony import */ var _sass_icons_active_symbols_volatility_50_index_ic_50_index_v_svg__WEBPACK_IMPORTED_MODULE_109__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/50 index/ic-50-index-v.svg */ "./sass/icons/active-symbols/volatility/50 index/ic-50-index-v.svg");
+/* harmony import */ var _sass_icons_active_symbols_volatility_50_index_ic_50_index_v_svg__WEBPACK_IMPORTED_MODULE_109___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_50_index_ic_50_index_v_svg__WEBPACK_IMPORTED_MODULE_109__);
+/* harmony import */ var _sass_icons_active_symbols_volatility_75_index_ic_75_index_v_svg__WEBPACK_IMPORTED_MODULE_110__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/75 index/ic-75-index-v.svg */ "./sass/icons/active-symbols/volatility/75 index/ic-75-index-v.svg");
+/* harmony import */ var _sass_icons_active_symbols_volatility_75_index_ic_75_index_v_svg__WEBPACK_IMPORTED_MODULE_110___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_75_index_ic_75_index_v_svg__WEBPACK_IMPORTED_MODULE_110__);
+/* harmony import */ var _sass_icons_active_symbols_volatility_100_index_ic_100_index_v_svg__WEBPACK_IMPORTED_MODULE_111__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/100 index/ic-100-index-v.svg */ "./sass/icons/active-symbols/volatility/100 index/ic-100-index-v.svg");
+/* harmony import */ var _sass_icons_active_symbols_volatility_100_index_ic_100_index_v_svg__WEBPACK_IMPORTED_MODULE_111___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_100_index_ic_100_index_v_svg__WEBPACK_IMPORTED_MODULE_111__);
 /* harmony import */ var _sass_icons_active_symbols_volatility_1s10_index_ic_10_1s_index_svg__WEBPACK_IMPORTED_MODULE_112__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/1s10 index/ic-10-1s-index.svg */ "./sass/icons/active-symbols/volatility/1s10 index/ic-10-1s-index.svg");
 /* harmony import */ var _sass_icons_active_symbols_volatility_1s10_index_ic_10_1s_index_svg__WEBPACK_IMPORTED_MODULE_112___default = /*#__PURE__*/__webpack_require__.n(_sass_icons_active_symbols_volatility_1s10_index_ic_10_1s_index_svg__WEBPACK_IMPORTED_MODULE_112__);
 /* harmony import */ var _sass_icons_active_symbols_volatility_1s25_index_light_25_1s_index_svg__WEBPACK_IMPORTED_MODULE_113__ = __webpack_require__(/*! ../../sass/icons/active-symbols/volatility/1s25 index/light-25(1s)index.svg */ "./sass/icons/active-symbols/volatility/1s25 index/light-25(1s)index.svg");
@@ -30310,11 +30335,11 @@ var ItemIconMap = {
   frxXAGUSD: MetalIcon,
 
   /* Volatility Indices */
-  R_10: Wrapper(_sass_icons_active_symbols_volatility_10_index_ic_10_index_svg__WEBPACK_IMPORTED_MODULE_107___default.a),
-  R_25: Wrapper(_sass_icons_active_symbols_volatility_25_index_ic_25_index_svg__WEBPACK_IMPORTED_MODULE_108___default.a),
-  R_50: Wrapper(_sass_icons_active_symbols_volatility_50_index_ic_50_index_svg__WEBPACK_IMPORTED_MODULE_109___default.a),
-  R_75: Wrapper(_sass_icons_active_symbols_volatility_75_index_ic_75_index_svg__WEBPACK_IMPORTED_MODULE_110___default.a),
-  R_100: Wrapper(_sass_icons_active_symbols_volatility_100_index_ic_100_index_svg__WEBPACK_IMPORTED_MODULE_111___default.a),
+  R_10: Wrapper(_sass_icons_active_symbols_volatility_10_index_ic_10_index_v_svg__WEBPACK_IMPORTED_MODULE_107___default.a),
+  R_25: Wrapper(_sass_icons_active_symbols_volatility_25_index_ic_25_index_v_svg__WEBPACK_IMPORTED_MODULE_108___default.a),
+  R_50: Wrapper(_sass_icons_active_symbols_volatility_50_index_ic_50_index_v_svg__WEBPACK_IMPORTED_MODULE_109___default.a),
+  R_75: Wrapper(_sass_icons_active_symbols_volatility_75_index_ic_75_index_v_svg__WEBPACK_IMPORTED_MODULE_110___default.a),
+  R_100: Wrapper(_sass_icons_active_symbols_volatility_100_index_ic_100_index_v_svg__WEBPACK_IMPORTED_MODULE_111___default.a),
   '1HZ10V': Wrapper(_sass_icons_active_symbols_volatility_1s10_index_ic_10_1s_index_svg__WEBPACK_IMPORTED_MODULE_112___default.a),
   '1HZ25V': Wrapper(_sass_icons_active_symbols_volatility_1s25_index_light_25_1s_index_svg__WEBPACK_IMPORTED_MODULE_113___default.a),
   '1HZ50V': Wrapper(_sass_icons_active_symbols_volatility_1s50_index_light_50_1s_index_svg__WEBPACK_IMPORTED_MODULE_114___default.a),
@@ -32502,6 +32527,8 @@ var SymbolSelectButton = function SymbolSelectButton(_ref2) {
       symbolOpenTime = _ref2.symbolOpenTime;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "cq-symbol-select-btn"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "cq-symbol-select-btn__container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SymbolInfo, {
     symbol: symbol,
     ChartPrice: ChartPrice,
@@ -32509,7 +32536,7 @@ var SymbolSelectButton = function SymbolSelectButton(_ref2) {
     isSymbolOpen: isSymbolOpen
   }), !isSymbolOpen && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "cq-symbol-closed-text"
-  }, t.translate('CLOSED')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Icons_jsx__WEBPACK_IMPORTED_MODULE_2__["ArrowIcon"], {
+  }, t.translate('CLOSED'))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Icons_jsx__WEBPACK_IMPORTED_MODULE_2__["ArrowIcon"], {
     className: "cq-symbol-dropdown"
   }));
 };
@@ -35531,7 +35558,9 @@ var Feed = /*#__PURE__*/function () {
       var lastEpoch = subscription.lastStreamEpoch;
 
       if (this.endEpoch && lastEpoch + this.granularity > this.endEpoch) {
-        if (this._activeStreams[key] && this.granularity === 0 && !this._mainStore.state.isStaticChart && CIQ.strToDateTime(Object(_utils__WEBPACK_IMPORTED_MODULE_3__["getUTCDate"])(this.endEpoch)).valueOf() >= this._stx.chart.dataSet.slice(-1)[0].DT.valueOf()) {
+        var _this$_stx$chart$data;
+
+        if (this._activeStreams[key] && this.granularity === 0 && !this._mainStore.state.isStaticChart && CIQ.strToDateTime(Object(_utils__WEBPACK_IMPORTED_MODULE_3__["getUTCDate"])(this.endEpoch)).valueOf() >= ((_this$_stx$chart$data = this._stx.chart.dataSet.slice(-1)[0]) === null || _this$_stx$chart$data === void 0 ? void 0 : _this$_stx$chart$data.DT.valueOf())) {
           result = false;
         }
 
@@ -36540,6 +36569,101 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+/***/ }),
+
+/***/ "./src/hooks/index.js":
+/*!****************************!*\
+  !*** ./src/hooks/index.js ***!
+  \****************************/
+/*! exports provided: usePrevious, useStateCallback */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _use_previous__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./use-previous */ "./src/hooks/use-previous.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "usePrevious", function() { return _use_previous__WEBPACK_IMPORTED_MODULE_0__["usePrevious"]; });
+
+/* harmony import */ var _use_state_callback__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./use-state-callback */ "./src/hooks/use-state-callback.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useStateCallback", function() { return _use_state_callback__WEBPACK_IMPORTED_MODULE_1__["useStateCallback"]; });
+
+
+
+
+/***/ }),
+
+/***/ "./src/hooks/use-previous.js":
+/*!***********************************!*\
+  !*** ./src/hooks/use-previous.js ***!
+  \***********************************/
+/*! exports provided: usePrevious */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "usePrevious", function() { return usePrevious; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var usePrevious = function usePrevious(value) {
+  var ref = react__WEBPACK_IMPORTED_MODULE_0___default.a.useRef();
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
+    ref.current = value;
+  }, [value]);
+  return ref.current;
+};
+
+/***/ }),
+
+/***/ "./src/hooks/use-state-callback.js":
+/*!*****************************************!*\
+  !*** ./src/hooks/use-state-callback.js ***!
+  \*****************************************/
+/*! exports provided: useStateCallback */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useStateCallback", function() { return useStateCallback; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+ // this hook mimics this.setState({ state: value, ... }, () => callbackFunc());
+
+var useStateCallback = function useStateCallback(initial_state) {
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(initial_state),
+      _React$useState2 = _slicedToArray(_React$useState, 2),
+      state = _React$useState2[0],
+      setState = _React$useState2[1];
+
+  var callbackRef = react__WEBPACK_IMPORTED_MODULE_0___default.a.useRef(null); // a mutable ref to store existing callback
+
+  var setStateCallback = function setStateCallback(current_state, cb) {
+    callbackRef.current = cb; // store the passed callback to the ref
+
+    setState(current_state);
+  };
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
+    // callback ref current is null on initial render, so we only execute callback on state
+    if (callbackRef.current) {
+      callbackRef.current(state);
+      callbackRef.current = null; // we need to reset the callback after execution
+    }
+  }, [state]);
+  return [state, setStateCallback];
+};
 
 /***/ }),
 
@@ -38429,6 +38553,8 @@ var ChartSettingStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].boun
   }, {
     key: "setLanguage",
     value: function setLanguage(lng) {
+      var _this4 = this;
+
       if (!this.languages.length) {
         return;
       }
@@ -38440,7 +38566,11 @@ var ChartSettingStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].boun
       this.language = this.languages.find(function (item) {
         return item.key === lng;
       }) || this.defaultLanguage;
-      t.setLanguage(this.language.key);
+      t.setLanguage(this.language.key, function () {
+        var _this4$mainStore, _this4$mainStore$load, _this4$mainStore$load2;
+
+        _this4 === null || _this4 === void 0 ? void 0 : (_this4$mainStore = _this4.mainStore) === null || _this4$mainStore === void 0 ? void 0 : (_this4$mainStore$load = _this4$mainStore.loader) === null || _this4$mainStore$load === void 0 ? void 0 : (_this4$mainStore$load2 = _this4$mainStore$load.hide) === null || _this4$mainStore$load2 === void 0 ? void 0 : _this4$mainStore$load2.call(_this4$mainStore$load);
+      });
       Object(_utils_ga__WEBPACK_IMPORTED_MODULE_3__["logEvent"])(_utils_ga__WEBPACK_IMPORTED_MODULE_3__["LogCategories"].ChartControl, _utils_ga__WEBPACK_IMPORTED_MODULE_3__["LogActions"].ChartSetting, "Change language to ".concat(this.language.key));
       this.saveSetting();
     }
@@ -38464,7 +38594,7 @@ var ChartSettingStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].boun
   }, {
     key: "setPosition",
     value: function setPosition(value) {
-      var _this4 = this;
+      var _this5 = this;
 
       if (this.position === value) {
         return;
@@ -38485,7 +38615,7 @@ var ChartSettingStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].boun
        */
 
       setTimeout(function () {
-        _this4.mainStore.chart.resizeScreen();
+        _this5.mainStore.chart.resizeScreen();
       }, 10);
       this.menu.setOpen(false);
     }
@@ -38503,7 +38633,7 @@ var ChartSettingStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].boun
   }, {
     key: "setHistorical",
     value: function setHistorical(value) {
-      var _this5 = this;
+      var _this6 = this;
 
       if (this.historical === value) {
         return;
@@ -38519,7 +38649,7 @@ var ChartSettingStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].boun
        */
 
       setTimeout(function () {
-        _this5.mainStore.chart.resizeScreen();
+        _this6.mainStore.chart.resizeScreen();
       }, 10);
     }
   }, {
@@ -40668,6 +40798,8 @@ var ChartStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec
         _this2.loader.setState('trading-time');
 
         _this2.tradingTimes.initialize().then(Object(mobx__WEBPACK_IMPORTED_MODULE_0__["action"])(function () {
+          var _this2$contextPromise, _this2$contextPromise2;
+
           // In the odd event that chart is destroyed by the time
           // the request finishes, just calmly return...
           if (stxx.isDestroyed) {
@@ -40697,8 +40829,7 @@ var ChartStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, _dec
 
           stxx.container.addEventListener('mouseenter', _this2.onMouseEnter);
           stxx.container.addEventListener('mouseleave', _this2.onMouseLeave);
-
-          _this2.contextPromise.resolve(_this2.context);
+          (_this2$contextPromise = _this2.contextPromise) === null || _this2$contextPromise === void 0 ? void 0 : (_this2$contextPromise2 = _this2$contextPromise.resolve) === null || _this2$contextPromise2 === void 0 ? void 0 : _this2$contextPromise2.call(_this2$contextPromise, _this2.context);
 
           _this2.resizeScreen();
 
@@ -42370,7 +42501,7 @@ var CrosshairStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, 
 
               var _display = seriesParams.display || seriesParams.symbol || seriesParams.field;
 
-              if (sKey && (!dupMap[_display] || seriesParams.symbol === undefined)) {
+              if (_display && sKey && (!dupMap[_display] || seriesParams.symbol === undefined)) {
                 fields.push({
                   member: sKey,
                   display: _display,
@@ -42470,7 +42601,7 @@ var CrosshairStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bound, 
           dsField = data.Close - data.iqPrevClose;
         }
 
-        var fieldName = displayName.replace(/^(Result )(.*)/, '$2');
+        var fieldName = displayName === null || displayName === void 0 ? void 0 : displayName.replace(/^(Result )(.*)/, '$2');
 
         if ((dsField || dsField === 0) && (name === 'DT' || _typeof(dsField) !== 'object' || dsField.Close || dsField.Close === 0)) {
           var fieldValue = '';
@@ -43798,27 +43929,22 @@ var LastDigitStatsStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bo
   _createClass(LastDigitStatsStore, [{
     key: "updateLastDigitStats",
     value: function () {
-      var _updateLastDigitStats = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+      var _updateLastDigitStats = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(response) {
         var _this2 = this;
 
-        var response,
-            i,
-            tickHistory,
-            _args = arguments;
+        var i, tickHistory;
         return regeneratorRuntime.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                response = _args.length > 0 && _args[0] !== undefined ? _args[0] : {};
-
                 if (!(!this.context || !this.mainStore.chart.currentActiveSymbol)) {
-                  _context.next = 3;
+                  _context.next = 2;
                   break;
                 }
 
                 return _context.abrupt("return");
 
-              case 3:
+              case 2:
                 this.digits = [];
                 this.bars = [];
                 this.latestData = [];
@@ -43832,53 +43958,53 @@ var LastDigitStatsStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bo
                 }
 
                 if (!(this.stx.masterData && this.stx.masterData.length >= this.count)) {
-                  _context.next = 11;
+                  _context.next = 10;
                   break;
                 }
 
                 this.latestData = this.stx.masterData.slice(-this.count).map(function (x) {
                   return x.Close.toFixed(_this2.decimalPlaces);
                 });
-                _context.next = 18;
+                _context.next = 17;
                 break;
 
-              case 11:
+              case 10:
                 _context.t0 = response;
 
                 if (_context.t0) {
-                  _context.next = 16;
+                  _context.next = 15;
                   break;
                 }
 
-                _context.next = 15;
+                _context.next = 14;
                 return this.api.getTickHistory({
                   symbol: this.mainStore.chart.currentActiveSymbol.symbol,
                   count: this.count
                 });
 
-              case 15:
+              case 14:
                 _context.t0 = _context.sent;
 
-              case 16:
+              case 15:
                 tickHistory = _context.t0;
                 this.latestData = tickHistory && tickHistory.history ? tickHistory.history.prices : [];
 
-              case 18:
+              case 17:
                 if (!(!this.context || !this.mainStore.chart.currentActiveSymbol)) {
-                  _context.next = 20;
+                  _context.next = 19;
                   break;
                 }
 
                 return _context.abrupt("return");
 
-              case 20:
+              case 19:
                 this.latestData.forEach(function (price) {
                   var lastDigit = (+price).toFixed(_this2.decimalPlaces).slice(-1);
                   _this2.digits[lastDigit]++;
                 });
                 this.updateBars();
 
-              case 22:
+              case 21:
               case "end":
                 return _context.stop();
             }
@@ -43886,7 +44012,7 @@ var LastDigitStatsStore = (_dec = mobx__WEBPACK_IMPORTED_MODULE_0__["action"].bo
         }, _callee, this);
       }));
 
-      function updateLastDigitStats() {
+      function updateLastDigitStats(_x) {
         return _updateLastDigitStats.apply(this, arguments);
       }
 

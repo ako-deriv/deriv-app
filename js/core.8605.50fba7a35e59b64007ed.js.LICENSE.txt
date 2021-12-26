@@ -1,0 +1,2697 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+  Copyright (c) 2017 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
+MERCHANTABLITY OR NON-INFRINGEMENT.
+
+See the Apache Version 2.0 License for specific language governing permissions
+and limitations under the License.
+***************************************************************************** */
+
+/*! . */
+
+/*! ../../../sass/components/_categorical-display.scss */
+
+/*! ../../chartiq/development/js/chartiq.js */
+
+/*! ../../chartiq/html2canvas.min.js */
+
+/*! ../../sass/_themes.scss */
+
+/*! ../../sass/components/_bottom-widget-container.scss */
+
+/*! ../../sass/components/_chart-controls.scss */
+
+/*! ../../sass/components/_chart-footer.scss */
+
+/*! ../../sass/components/_chart-mode.scss */
+
+/*! ../../sass/components/_chart-setting.scss */
+
+/*! ../../sass/components/_chart-size.scss */
+
+/*! ../../sass/components/_chart-title.scss */
+
+/*! ../../sass/components/_chart-types.scss */
+
+/*! ../../sass/components/_ciq-list.scss */
+
+/*! ../../sass/components/_crosshair.scss */
+
+/*! ../../sass/components/_dialog.scss */
+
+/*! ../../sass/components/_download.scss */
+
+/*! ../../sass/components/_draw_tools.scss */
+
+/*! ../../sass/components/_form.scss */
+
+/*! ../../sass/components/_highest-lowest-marker.scss */
+
+/*! ../../sass/components/_icons.scss */
+
+/*! ../../sass/components/_indicator_prediction_dialog.scss */
+
+/*! ../../sass/components/_last-digits.scss */
+
+/*! ../../sass/components/_menu-dropdown.scss */
+
+/*! ../../sass/components/_navigation-widget.scss */
+
+/*! ../../sass/components/_pagination-loader.scss */
+
+/*! ../../sass/components/_scroll.scss */
+
+/*! ../../sass/components/_search.scss */
+
+/*! ../../sass/components/_settings-dialog.scss */
+
+/*! ../../sass/components/_studylegend.scss */
+
+/*! ../../sass/components/_timeperiod.scss */
+
+/*! ../../sass/components/_toolbar-widget.scss */
+
+/*! ../../sass/components/_view.scss */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-bchusd.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-bnbusd.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-btceth.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-btcltc.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-btcusd.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-dshusd.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-eosusd.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-ethusd.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-iotusd.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-ltcusd.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-neousd.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-omgusd.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-trxusd.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-xlmusd.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-xmrusd.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-xrpusd.svg */
+
+/*! ../../sass/icons/active-symbols/cryptos/ic-zecusd.svg */
+
+/*! ../../sass/icons/active-symbols/energy/oil usd/ic-oilusd.svg */
+
+/*! ../../sass/icons/active-symbols/ic-otcbadge.svg */
+
+/*! ../../sass/icons/active-symbols/ic-smartfx-placeholder.svg */
+
+/*! ../../sass/icons/active-symbols/metals/ic-metal.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/10 index/ic-10-index-v.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/100 index/ic-100-index-v.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/1s10 index/ic-10-1s-index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/1s100 index/ic-100-1s-index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/1s200 index/ic-200-1s-index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/1s25 index/light-25(1s)index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/1s300 index/ic-300-1s-index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/1s50 index/light-50(1s) index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/1s75 index/light-75(1s) index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/25 index/ic-25-index-v.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/50 index/ic-50-index-v.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/75 index/ic-75-index-v.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/bear market/ic-marketbear.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/boom1000 index/boom1000 index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/boom300 index/boom300 index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/boom500 index/boom500 index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/bull market/ic-marketbull.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/crash1000 index/crash1000 index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/crash300 index/crash300 index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/crash500 index/crash500 index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/jd10 index/ic-10-index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/jd100 index/ic-100-index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/jd150 index/ic-150-index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/jd200 index/ic-200-index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/jd25 index/ic-25-index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/jd50 index/ic-50-index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/jd75 index/ic-75-index.svg */
+
+/*! ../../sass/icons/active-symbols/volatility/step index/step index.svg */
+
+/*! ../../sass/icons/alert message/error.svg */
+
+/*! ../../sass/icons/alert message/info.svg */
+
+/*! ../../sass/icons/alert message/success.svg */
+
+/*! ../../sass/icons/alert message/warning.svg */
+
+/*! ../../sass/icons/arrows/ic-arrow-green.svg */
+
+/*! ../../sass/icons/arrows/ic-arrow-orange.svg */
+
+/*! ../../sass/icons/back/ic-back.svg */
+
+/*! ../../sass/icons/chart settings/chart types/baseline/ic-baseline-normal.svg */
+
+/*! ../../sass/icons/chart settings/chart types/candle/ic-candle-normal.svg */
+
+/*! ../../sass/icons/chart settings/chart types/dot/ic-dot-normal.svg */
+
+/*! ../../sass/icons/chart settings/chart types/hollow candle/ic-hollowcandle-normal.svg */
+
+/*! ../../sass/icons/chart settings/chart types/ic-heikin-ashi-normal.svg */
+
+/*! ../../sass/icons/chart settings/chart types/ic-kagi-normal.svg */
+
+/*! ../../sass/icons/chart settings/chart types/ic-linebreak-normal.svg */
+
+/*! ../../sass/icons/chart settings/chart types/ic-pointfigure-normal.svg */
+
+/*! ../../sass/icons/chart settings/chart types/ic-rangebars-normal.svg */
+
+/*! ../../sass/icons/chart settings/chart types/ic-renko-normal.svg */
+
+/*! ../../sass/icons/chart settings/chart types/line dot/ic-linedot-normal.svg */
+
+/*! ../../sass/icons/chart settings/chart types/line/ic-line-normal.svg */
+
+/*! ../../sass/icons/chart settings/chart types/ohlc/ic-ohlc-normal.svg */
+
+/*! ../../sass/icons/chart settings/chart types/spline/ic-spline-normal.svg */
+
+/*! ../../sass/icons/chart settings/chart types/table/table.svg */
+
+/*! ../../sass/icons/chart settings/comparison/ic-comparison-normal.svg */
+
+/*! ../../sass/icons/chart settings/crosshair/ic-crosshair-off.svg */
+
+/*! ../../sass/icons/chart settings/crosshair/ic-crosshair-on.svg */
+
+/*! ../../sass/icons/chart settings/crosshair/ic-crosshair-tooltip.svg */
+
+/*! ../../sass/icons/chart settings/drawing tools/ic-drawingtools-normal.svg */
+
+/*! ../../sass/icons/chart settings/setting/ic-position-bottom.svg */
+
+/*! ../../sass/icons/chart settings/setting/ic-position-left.svg */
+
+/*! ../../sass/icons/chart settings/zoom-in/ic-zoomin-light.svg */
+
+/*! ../../sass/icons/chart settings/zoom-out/ic-zoomout-light.svg */
+
+/*! ../../sass/icons/chart-type/ic-area-grayscale.svg */
+
+/*! ../../sass/icons/chart-type/ic-area.svg */
+
+/*! ../../sass/icons/chart-type/ic-candle-grayscale.svg */
+
+/*! ../../sass/icons/chart-type/ic-candle.svg */
+
+/*! ../../sass/icons/chart-type/ic-hollow-grayscale.svg */
+
+/*! ../../sass/icons/chart-type/ic-hollow.svg */
+
+/*! ../../sass/icons/chart-type/ic-ohlc-grayscale.svg */
+
+/*! ../../sass/icons/chart-type/ic-ohlc.svg */
+
+/*! ../../sass/icons/chart/ic-down.svg */
+
+/*! ../../sass/icons/chart/ic-maximize.svg */
+
+/*! ../../sass/icons/chart/resize-icon.svg */
+
+/*! ../../sass/icons/clear/ic-clear.svg */
+
+/*! ../../sass/icons/close/ic-close-bold.svg */
+
+/*! ../../sass/icons/close/ic-close-circle.svg */
+
+/*! ../../sass/icons/common/full-screen.svg */
+
+/*! ../../sass/icons/common/ic-active.svg */
+
+/*! ../../sass/icons/common/ic-add.svg */
+
+/*! ../../sass/icons/common/ic-charts.svg */
+
+/*! ../../sass/icons/common/ic-checkbox-active.svg */
+
+/*! ../../sass/icons/common/ic-checkbox.svg */
+
+/*! ../../sass/icons/common/ic-close.svg */
+
+/*! ../../sass/icons/common/ic-download.svg */
+
+/*! ../../sass/icons/common/ic-drawing-tool.svg */
+
+/*! ../../sass/icons/common/ic-help-center.svg */
+
+/*! ../../sass/icons/common/ic-indicators.svg */
+
+/*! ../../sass/icons/common/ic-info.svg */
+
+/*! ../../sass/icons/common/ic-input-number-minus.svg */
+
+/*! ../../sass/icons/common/ic-input-number-plus.svg */
+
+/*! ../../sass/icons/common/ic-language.svg */
+
+/*! ../../sass/icons/common/ic-minimize.svg */
+
+/*! ../../sass/icons/common/ic-templates.svg */
+
+/*! ../../sass/icons/common/ic-theme.svg */
+
+/*! ../../sass/icons/delete/ic-delete.svg */
+
+/*! ../../sass/icons/download/ic-csv.svg */
+
+/*! ../../sass/icons/download/ic-png.svg */
+
+/*! ../../sass/icons/draw-tools/ic-channel.svg */
+
+/*! ../../sass/icons/draw-tools/ic-continuous.svg */
+
+/*! ../../sass/icons/draw-tools/ic-fibonacci-fan.svg */
+
+/*! ../../sass/icons/draw-tools/ic-horizontal.svg */
+
+/*! ../../sass/icons/draw-tools/ic-line.svg */
+
+/*! ../../sass/icons/draw-tools/ic-ray.svg */
+
+/*! ../../sass/icons/draw-tools/ic-rectangle.svg */
+
+/*! ../../sass/icons/draw-tools/ic-trend.svg */
+
+/*! ../../sass/icons/draw-tools/ic-vertical.svg */
+
+/*! ../../sass/icons/dropdown/ic-dropdown.svg */
+
+/*! ../../sass/icons/edit/ic-edit.svg */
+
+/*! ../../sass/icons/favorite/ic-favorite-normal.svg */
+
+/*! ../../sass/icons/flags/aud.svg */
+
+/*! ../../sass/icons/flags/cad.svg */
+
+/*! ../../sass/icons/flags/chf.svg */
+
+/*! ../../sass/icons/flags/chinese-traditional.svg */
+
+/*! ../../sass/icons/flags/chinese.svg */
+
+/*! ../../sass/icons/flags/dutch.svg */
+
+/*! ../../sass/icons/flags/eur.svg */
+
+/*! ../../sass/icons/flags/french.svg */
+
+/*! ../../sass/icons/flags/gbp.svg */
+
+/*! ../../sass/icons/flags/german.svg */
+
+/*! ../../sass/icons/flags/hong kong.svg */
+
+/*! ../../sass/icons/flags/indonesia.svg */
+
+/*! ../../sass/icons/flags/italy.svg */
+
+/*! ../../sass/icons/flags/jpy.svg */
+
+/*! ../../sass/icons/flags/mxn.svg */
+
+/*! ../../sass/icons/flags/nok.svg */
+
+/*! ../../sass/icons/flags/nzd.svg */
+
+/*! ../../sass/icons/flags/pln.svg */
+
+/*! ../../sass/icons/flags/portugal.svg */
+
+/*! ../../sass/icons/flags/russia.svg */
+
+/*! ../../sass/icons/flags/sek.svg */
+
+/*! ../../sass/icons/flags/spanish.svg */
+
+/*! ../../sass/icons/flags/thailand.svg */
+
+/*! ../../sass/icons/flags/usd.svg */
+
+/*! ../../sass/icons/flags/vietnam.svg */
+
+/*! ../../sass/icons/flags/wallstreet.svg */
+
+/*! ../../sass/icons/flags/xau.svg */
+
+/*! ../../sass/icons/indicators/ic-adx.svg */
+
+/*! ../../sass/icons/indicators/ic-alligator.svg */
+
+/*! ../../sass/icons/indicators/ic-aroon.svg */
+
+/*! ../../sass/icons/indicators/ic-averages.svg */
+
+/*! ../../sass/icons/indicators/ic-awesome-oscillator.svg */
+
+/*! ../../sass/icons/indicators/ic-bollinger.svg */
+
+/*! ../../sass/icons/indicators/ic-cat-averages.svg */
+
+/*! ../../sass/icons/indicators/ic-commodity-channel-index.svg */
+
+/*! ../../sass/icons/indicators/ic-donchian.svg */
+
+/*! ../../sass/icons/indicators/ic-dtrended.svg */
+
+/*! ../../sass/icons/indicators/ic-envelope.svg */
+
+/*! ../../sass/icons/indicators/ic-fractal-chaos.svg */
+
+/*! ../../sass/icons/indicators/ic-gator.svg */
+
+/*! ../../sass/icons/indicators/ic-ichimoku.svg */
+
+/*! ../../sass/icons/indicators/ic-macd.svg */
+
+/*! ../../sass/icons/indicators/ic-momentum.svg */
+
+/*! ../../sass/icons/indicators/ic-other.svg */
+
+/*! ../../sass/icons/indicators/ic-parabolic.svg */
+
+/*! ../../sass/icons/indicators/ic-rainbow.svg */
+
+/*! ../../sass/icons/indicators/ic-rate-of-change.svg */
+
+/*! ../../sass/icons/indicators/ic-rsi.svg */
+
+/*! ../../sass/icons/indicators/ic-stochastic-momentum.svg */
+
+/*! ../../sass/icons/indicators/ic-stochastic-oscillator.svg */
+
+/*! ../../sass/icons/indicators/ic-trend-dark.svg */
+
+/*! ../../sass/icons/indicators/ic-trend-light.svg */
+
+/*! ../../sass/icons/indicators/ic-volatility.svg */
+
+/*! ../../sass/icons/indicators/ic-william-percent.svg */
+
+/*! ../../sass/icons/indicators/ic-zig-zag.svg */
+
+/*! ../../sass/icons/measure/ic-measure.svg */
+
+/*! ../../sass/icons/navigation-widgets/ic-home.svg */
+
+/*! ../../sass/icons/navigation-widgets/ic-scale-full.svg */
+
+/*! ../../sass/icons/navigation-widgets/ic-zoomin.svg */
+
+/*! ../../sass/icons/navigation-widgets/ic-zoomout.svg */
+
+/*! ../../sass/icons/pencil/ic-pencil.svg */
+
+/*! ../../sass/icons/placeholder/ic-placeholder.svg */
+
+/*! ../../sass/icons/search/ic-search-normal.svg */
+
+/*! ../../sass/icons/setting/countdown/ic-countdown-dark-active.svg */
+
+/*! ../../sass/icons/setting/countdown/ic-countdown-dark-normal.svg */
+
+/*! ../../sass/icons/setting/countdown/ic-countdown-light-active.svg */
+
+/*! ../../sass/icons/setting/countdown/ic-countdown-light-normal.svg */
+
+/*! ../../sass/icons/setting/highest-lowest/ic-highest-lowest-dark-active.svg */
+
+/*! ../../sass/icons/setting/highest-lowest/ic-highest-lowest-dark-normal.svg */
+
+/*! ../../sass/icons/setting/highest-lowest/ic-highest-lowest-light-active.svg */
+
+/*! ../../sass/icons/setting/highest-lowest/ic-highest-lowest-light-normal.svg */
+
+/*! ../../sass/icons/setting/historical/ic-historical-dark-active.svg */
+
+/*! ../../sass/icons/setting/historical/ic-historical-dark-normal.svg */
+
+/*! ../../sass/icons/setting/historical/ic-historical-light-active.svg */
+
+/*! ../../sass/icons/setting/historical/ic-historical-light-normal.svg */
+
+/*! ../../sass/icons/setting/ic-theme-dark.svg */
+
+/*! ../../sass/icons/setting/ic-theme-light.svg */
+
+/*! ../../sass/icons/shape/ic-empty-state.svg */
+
+/*! ../../sass/icons/shape/ic-overwrite-state.svg */
+
+/*! ../../sass/icons/sidebar/commodities/ic-commodities-normal.svg */
+
+/*! ../../sass/icons/sidebar/cryptocurrency/ic-cryptocurrency-normal.svg */
+
+/*! ../../sass/icons/sidebar/forex/ic-forex-normal.svg */
+
+/*! ../../sass/icons/sidebar/indices/ic-indices-normal.svg */
+
+/*! ../../sass/icons/sidebar/otc/ic-otc-normal.svg */
+
+/*! ../../sass/icons/sidebar/synth_index/ic-synth-normal.svg */
+
+/*! ../../sass/icons/sidebar/volatility/ic-volatility-normal.svg */
+
+/*! ../../sass/icons/tick/ic-tick.svg */
+
+/*! ../../sass/icons/time/ic-time.svg */
+
+/*! ../../sass/main.scss */
+
+/*! ../../utils */
+
+/*! ../../utils/PendingPromise */
+
+/*! ../Constant */
+
+/*! ../Constant.js */
+
+/*! ../Favorite.jsx */
+
+/*! ../Icons.jsx */
+
+/*! ../Scroll.jsx */
+
+/*! ../SplinePlotter */
+
+/*! ../TickHistoryFormatter */
+
+/*! ../binaryapi */
+
+/*! ../chartiq_injections */
+
+/*! ../components/AnimatedPrice.jsx */
+
+/*! ../components/Dialog.jsx */
+
+/*! ../components/Icons.jsx */
+
+/*! ../components/IndicatorPredictionDialog.jsx */
+
+/*! ../components/List.jsx */
+
+/*! ../components/Menu.jsx */
+
+/*! ../components/PriceLine.jsx */
+
+/*! ../components/SearchInput.jsx */
+
+/*! ../components/SettingsDialog.jsx */
+
+/*! ../components/Shade.jsx */
+
+/*! ../components/SymbolSelectButton.jsx */
+
+/*! ../components/categoricaldisplay */
+
+/*! ../components/ui/Animation */
+
+/*! ../components/ui/Context */
+
+/*! ../components/ui/KeystrokeHub */
+
+/*! ../feed */
+
+/*! ../helpers/childrenDeepMap */
+
+/*! ../helpers/count */
+
+/*! ../helpers/elementTypes */
+
+/*! ../helpers/propTypes */
+
+/*! ../helpers/uuid */
+
+/*! ../hooks */
+
+/*! ../store */
+
+/*! ../store/BarrierStore */
+
+/*! ../store/Connect */
+
+/*! ../store/FavoriteStore */
+
+/*! ../utils */
+
+/*! ../utils/PendingPromise */
+
+/*! ../utils/ServerTime */
+
+/*! ../utils/ga */
+
+/*! ../utils/index */
+
+/*! ../utils/object */
+
+/*! ./../../../node_modules/webpack/buildin/global.js */
+
+/*! ./../../process/browser.js */
+
+/*! ./../../webpack/buildin/global.js */
+
+/*! ./../webpack/buildin/global.js */
+
+/*! ./ActiveSymbols */
+
+/*! ./AnimatedPriceStore */
+
+/*! ./Barrier.jsx */
+
+/*! ./BinaryAPI */
+
+/*! ./BottomWidget.jsx */
+
+/*! ./BottomWidgetsContainer.jsx */
+
+/*! ./BottomWidgetsContainerStore */
+
+/*! ./CategoricalDisplay.jsx */
+
+/*! ./CategoricalDisplayStore */
+
+/*! ./Chart.jsx */
+
+/*! ./ChartControls.jsx */
+
+/*! ./ChartFooter.jsx */
+
+/*! ./ChartModeStore */
+
+/*! ./ChartSetting.jsx */
+
+/*! ./ChartSettingStore */
+
+/*! ./ChartSize.jsx */
+
+/*! ./ChartSizeStore */
+
+/*! ./ChartState */
+
+/*! ./ChartStore */
+
+/*! ./ChartTitle.jsx */
+
+/*! ./ChartTitleStore */
+
+/*! ./ChartTypeStore */
+
+/*! ./ChartTypes.jsx */
+
+/*! ./Connect */
+
+/*! ./Crosshair.jsx */
+
+/*! ./CrosshairStore */
+
+/*! ./CrosshairToggle.jsx */
+
+/*! ./CurrentSpotStore */
+
+/*! ./DelayedSubscription */
+
+/*! ./DialogStore */
+
+/*! ./DrawTools.jsx */
+
+/*! ./DrawToolsStore */
+
+/*! ./FastMarker.jsx */
+
+/*! ./FavoriteStore */
+
+/*! ./Feed */
+
+/*! ./FilterPanel.jsx */
+
+/*! ./Form.jsx */
+
+/*! ./Helper */
+
+/*! ./HighestLowestMarker.jsx */
+
+/*! ./HighestLowestStore */
+
+/*! ./Icons.jsx */
+
+/*! ./IndicatorPredictionDialogStore */
+
+/*! ./Item.jsx */
+
+/*! ./Keystroke */
+
+/*! ./LastDigitStats.jsx */
+
+/*! ./LastDigitStatsStore */
+
+/*! ./ListStore */
+
+/*! ./Loader.jsx */
+
+/*! ./LoaderStore */
+
+/*! ./MarketOpeningTimeCounter.jsx */
+
+/*! ./MenuMobile.jsx */
+
+/*! ./MenuStore */
+
+/*! ./NavigationWidget.jsx */
+
+/*! ./NavigationWidgetStore */
+
+/*! ./NotificationBadge.jsx */
+
+/*! ./Notifier */
+
+/*! ./PaginationLoader.jsx */
+
+/*! ./PaginationLoaderStore */
+
+/*! ./PendingPromise */
+
+/*! ./PriceLineArrow.jsx */
+
+/*! ./PriceLineStore */
+
+/*! ./PriceLineTitle.jsx */
+
+/*! ./RealtimeSubscription */
+
+/*! ./RenderInsideChart.jsx */
+
+/*! ./ResultsPanel.jsx */
+
+/*! ./RoutingStore */
+
+/*! ./Scroll.jsx */
+
+/*! ./ScrollStore */
+
+/*! ./SettingsDialogStore */
+
+/*! ./ShadeStore */
+
+/*! ./Share.jsx */
+
+/*! ./ShareStore */
+
+/*! ./StudyLegend.jsx */
+
+/*! ./StudyLegendStore */
+
+/*! ./Subscription */
+
+/*! ./TickHistoryFormatter */
+
+/*! ./Timeperiod.jsx */
+
+/*! ./TimeperiodStore */
+
+/*! ./ToolbarWidgetStore */
+
+/*! ./Tooltip.jsx */
+
+/*! ./TradingTimes */
+
+/*! ./UncontrolledTabs */
+
+/*! ./ViewStore */
+
+/*! ./Views.jsx */
+
+/*! ./backingStore */
+
+/*! ./calculateAwesome */
+
+/*! ./checkPropTypes */
+
+/*! ./childrenDeepMap */
+
+/*! ./cjs/react-is.development.js */
+
+/*! ./components/Barrier.jsx */
+
+/*! ./components/ChartMode.jsx */
+
+/*! ./components/ChartSetting.jsx */
+
+/*! ./components/ChartSize.jsx */
+
+/*! ./components/ChartTitle.jsx */
+
+/*! ./components/ChartTypes.jsx */
+
+/*! ./components/CrosshairToggle.jsx */
+
+/*! ./components/DrawTools.jsx */
+
+/*! ./components/FastMarker.jsx */
+
+/*! ./components/Icons.jsx */
+
+/*! ./components/RawMarker.jsx */
+
+/*! ./components/Share.jsx */
+
+/*! ./components/SmartChart.jsx */
+
+/*! ./components/StudyLegend.jsx */
+
+/*! ./components/Tab */
+
+/*! ./components/TabList */
+
+/*! ./components/TabPanel */
+
+/*! ./components/Tabs */
+
+/*! ./components/Timeperiod.jsx */
+
+/*! ./components/ToolbarWidget.jsx */
+
+/*! ./components/Views.jsx */
+
+/*! ./createXAxis */
+
+/*! ./currentHR */
+
+/*! ./elementTypes */
+
+/*! ./factoryWithTypeCheckers */
+
+/*! ./headsUpHR */
+
+/*! ./helpers/uuid */
+
+/*! ./index */
+
+/*! ./lib/ReactPropTypesSecret */
+
+/*! ./plotterDrawText */
+
+/*! ./renderChannel */
+
+/*! ./renderEllipse */
+
+/*! ./renderGartley */
+
+/*! ./renderPitchfork */
+
+/*! ./renderRectangle */
+
+/*! ./renderSegment */
+
+/*! ./resizeObserver */
+
+/*! ./setMeasure */
+
+/*! ./src/Translation.js */
+
+/*! ./subscription */
+
+/*! ./ui */
+
+/*! ./ui/utils */
+
+/*! ./use-previous */
+
+/*! ./use-state-callback */
+
+/*! ./utils */
+
+/*! ./utils/PendingPromise */
+
+/*! ./utils/ga */
+
+/*! chartiq */
+
+/*! classnames */
+
+/*! clsx */
+
+/*! event-emitter-es6 */
+
+/*! exports provided: $mobx, FlowCancellationError, IDerivationState, ObservableMap, ObservableSet, Reaction, _allowStateChanges, _allowStateChangesInsideComputed, _allowStateReadsEnd, _allowStateReadsStart, _endAction, _getAdministration, _getGlobalState, _interceptReads, _isComputingDerivation, _resetGlobalState, _startAction, action, autorun, comparer, computed, configure, createAtom, decorate, entries, extendObservable, flow, get, getAtom, getDebugName, getDependencyTree, getObserverTree, has, intercept, isAction, isArrayLike, isBoxedObservable, isComputed, isComputedProp, isFlowCancellationError, isObservable, isObservableArray, isObservableMap, isObservableObject, isObservableProp, isObservableSet, keys, observable, observe, onBecomeObserved, onBecomeUnobserved, onReactionError, reaction, remove, runInAction, set, spy, toJS, trace, transaction, untracked, values, when */
+
+/*! exports provided: ActiveSymbols, TradingTimes, BinaryAPI */
+
+/*! exports provided: BackingStore */
+
+/*! exports provided: Barrier, ChartSetting, ChartSize, ChartTitle, ChartTypes, ChartMode, createObjectFromLocalStorage, CrosshairToggle, DrawTools, Marker, PendingPromise, setSmartChartsPublicPath, Share, SmartChart, StudyLegend, Timeperiod, Views, ToolbarWidget, logEvent, LogCategories, LogActions, default */
+
+/*! exports provided: CIQ, SplinePlotter, timezoneJS, $$, $$$ */
+
+/*! exports provided: CategoricalDisplay, FilterPanel, NormalItem, ActiveItem, ResultsPanel */
+
+/*! exports provided: DelayedSubscription, RealtimeSubscription */
+
+/*! exports provided: Feed */
+
+/*! exports provided: FilterPanel */
+
+/*! exports provided: FormGroup, Checkbox, Slider, DropDown, Pattern, ColorPicker, Switch, SwitchIcon, NumericInput, NumberColorPicker, Toggle, FontSetting */
+
+/*! exports provided: InlineLoader, default */
+
+/*! exports provided: LogCategories, LogActions, initGA, logPageView, logEvent */
+
+/*! exports provided: MarketOpeningTimeCounter */
+
+/*! exports provided: NormalItem, ActiveItem */
+
+/*! exports provided: RenderDefaultControls, default */
+
+/*! exports provided: ResultsPanel */
+
+/*! exports provided: SymbolInfo, SymbolSelectButton, ChartPrice */
+
+/*! exports provided: Tabs, TabList, Tab, TabPanel, resetIdCounter */
+
+/*! exports provided: TickHistoryFormatter */
+
+/*! exports provided: Translation, t */
+
+/*! exports provided: Wrapper, DrawingCursorIcon, ThemeLightIcon, ThemeDarkIcon, DrawToolIcon, ActiveIcon, FullScreenIcon, BaseLineIcon, CandleIcon, DotIcon, LineDotIcon, HeikinAshiIcon, HollowCandleIcon, KagiIcon, LineBreakIcon, LineIcon, OHLCIcon, PointFigureIcon, RangeBarsIcon, RenkoIcon, TableIcon, AddIcon, ZoomInIcon, CloseIcon, InputNumberMinusIcon, InputNumberPlusIcon, CloseCircleIcon, CloseBoldIcon, ComparisonIcon, CrosshairOffIcon, CrosshairOnIcon, CrosshairTooltipIcon, DeleteIcon, ClearIcon, DrawIcon, IndicatorIcon, MeasureIcon, ZoomOutIcon, SplineIcon, PngIcon, CsvIcon, StarIcon, TemplateIcon, TickIcon, TimeIcon, SearchIcon, EditIcon, SettingIcon, ArrowIcon, FavoriteIcon, HelpCenterIcon, DownloadIcon, InfoIcon, InfoCircleIcon, PositionLeftIcon, PositionBottomIcon, BackIcon, HomeIcon, ScaleIcon, ZoominIcon, ZoomoutIcon, LanguageIcon, ThemeIcon, ChartIcon, CheckboxIcon, CheckboxActiveIcon, TypeAreaIcon, TypeCandleIcon, TypeHollowIcon, TypeOhlcIcon, TypeAreaGrayscaleIcon, TypeCandleGrayscaleIcon, TypeHollowGrayscaleIcon, TypeOhlcGrayscaleIcon, IndicatorCatMomentumIcon, IndicatorCatTrendLightIcon, IndicatorCatTrendDarkIcon, IndicatorCatVolatilityIcon, IndicatorCatAveragesIcon, IndicatorCatOtherIcon, IndicatorAwesomeOscillatorIcon, IndicatorDTrendedIcon, IndicatorGatorIcon, IndicatorMacdIcon, IndicatorRateChangeIcon, IndicatorRSIIcon, IndicatorStochasticOscillatorIcon, IndicatorStochasticMomentumIcon, IndicatorWilliamPercentIcon, IndicatorAroonIcon, IndicatorAdxIcon, IndicatorCommodityChannelIndexIcon, IndicatorIchimokuIcon, IndicatorParabolicIcon, IndicatorZigZagIcon, IndicatorBollingerIcon, IndicatorDonchianIcon, IndicatorAveragesIcon, IndicatorEnvelopeIcon, IndicatorAlligatorIcon, IndicatorFractalChaosIcon, IndicatorRainbowIcon, MetalIcon, EmptyStateIcon, OverwriteStateIcon, ArrowGreenIcon, ArrowOrangeIcon, DrawToolsChannelIcon, DrawToolsContinuousIcon, DrawToolsFibonaccifanIcon, DrawToolsHorizontalIcon, DrawToolsLineIcon, DrawToolsRayIcon, DrawToolsRectangleIcon, DrawToolsTrendIcon, DrawToolsVerticalIcon, alertIconMap, SymbolPlaceholderIcon, CategoryIconMap, SettingCountdownMap, SettingHistoricalMap, SettingHighestLowestMap, FlagIcons, ItemIconMap, OTCBadgeIcon, ActiveOptionsIconMap */
+
+/*! exports provided: childrenPropType, onSelectPropType, selectedIndexPropType */
+
+/*! exports provided: claims */
+
+/*! exports provided: connect */
+
+/*! exports provided: createObjectFromLocalStorage, isValidProp, getTimeUnit, getIntervalInSeconds, is_browser, stableSort, sameBar, downloadFileInBrowser, stxtap, getUTCEpoch, getUTCDate, getLocalDate, updatePropIfChanged, calculateTimeUnitInterval, calculateGranularity, displayMilliseconds, cloneCategory, cloneCategories, patchPixelFromChart, ARROW_HEIGHT, ARROW_COLORS, DIRECTIONS, formatCamelCase, prepareIndicatorName, renderSVGString, wrapText, stringToSlug */
+
+/*! exports provided: createXAxis */
+
+/*! exports provided: deepMap, deepForEach */
+
+/*! exports provided: default */
+
+/*! exports provided: default, reset */
+
+/*! exports provided: drawCurrentPriceLine */
+
+/*! exports provided: drawTools, getIndicatorsTree, ExcludedStudies, ChartTypes, Intervals, Languages, STATE, TooltipsContent */
+
+/*! exports provided: getParents, createElement, aggregation, setHidden, downloadURI */
+
+/*! exports provided: getTabsCount, getPanelsCount */
+
+/*! exports provided: isDeepEqual, isEqualArray, isEqualObject */
+
+/*! exports provided: isTab, isTabList, isTabPanel */
+
+/*! exports provided: maintainHeadsUpHR */
+
+/*! exports provided: overideMeasure */
+
+/*! exports provided: overrideCalculateAwesome */
+
+/*! exports provided: overrideRenderChannel */
+
+/*! exports provided: overrideRenderEllipse */
+
+/*! exports provided: overrideRenderGartley */
+
+/*! exports provided: overrideRenderPitchfork */
+
+/*! exports provided: overrideRenderRectangle */
+
+/*! exports provided: overrideRenderSegment */
+
+/*! exports provided: overrideResizeObserver */
+
+/*! exports provided: plotterDrawText */
+
+/*! exports provided: propTypes, PropTypes, onError, observer, Observer, renderReporter, componentByNodeRegistery, componentByNodeRegistry, trackComponents, useStaticRendering, Provider, inject */
+
+/*! exports provided: usePrevious */
+
+/*! exports provided: usePrevious, useStateCallback */
+
+/*! exports provided: useStateCallback */
+
+/*! import() | chartiq */
+
+/*! import() | html2canvas */
+
+/*! import() | resize-observer-polyfill */
+
+/*! lodash.debounce */
+
+/*! mobx */
+
+/*! mobx-react */
+
+/*! moment */
+
+/*! no static exports found */
+
+/*! object-assign */
+
+/*! prop-types */
+
+/*! react */
+
+/*! react-dom */
+
+/*! react-is */
+
+/*! react-tabs */
+
+/*! react-tabs/style/react-tabs.css */
+
+/*! react-transition-group */
+
+/*! resize-observer-polyfill */
+
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+
+/*!************************!*\
+  !*** ./sass/main.scss ***!
+  \************************/
+
+/*!*************************!*\
+  !*** ./src/Constant.js ***!
+  \*************************/
+
+/*!*************************!*\
+  !*** ./src/utils/ga.js ***!
+  \*************************/
+
+/*!**************************!*\
+  !*** ./src/feed/Feed.js ***!
+  \**************************/
+
+/*!***************************!*\
+  !*** ./sass/_themes.scss ***!
+  \***************************/
+
+/*!***************************!*\
+  !*** ./src/feed/index.js ***!
+  \***************************/
+
+/*!****************************!*\
+  !*** ./src/Translation.js ***!
+  \****************************/
+
+/*!****************************!*\
+  !*** ./src/hooks/index.js ***!
+  \****************************/
+
+/*!****************************!*\
+  !*** ./src/store/index.js ***!
+  \****************************/
+
+/*!****************************!*\
+  !*** ./src/utils/index.js ***!
+  \****************************/
+
+/*!*****************************!*\
+  !*** ./src/utils/object.js ***!
+  \*****************************/
+
+/*!******************************!*\
+  !*** ./src/SplinePlotter.js ***!
+  \******************************/
+
+/*!******************************!*\
+  !*** ./src/store/Connect.js ***!
+  \******************************/
+
+/*!*******************************!*\
+  !*** ./src/store/Notifier.js ***!
+  \*******************************/
+
+/*!********************************!*\
+  !*** ./src/binaryapi/index.js ***!
+  \********************************/
+
+/*!********************************!*\
+  !*** ./src/store/ListStore.js ***!
+  \********************************/
+
+/*!********************************!*\
+  !*** ./src/store/MenuStore.js ***!
+  \********************************/
+
+/*!********************************!*\
+  !*** ./src/store/ViewStore.js ***!
+  \********************************/
+
+/*!*********************************!*\
+  !*** ./src/components/Form.jsx ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/components/List.jsx ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/components/Menu.jsx ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/store/ChartState.js ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/store/ChartStore.js ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/store/ShadeStore.js ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/store/ShareStore.js ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/utils/ServerTime.js ***!
+  \*********************************/
+
+/*!**********************************!*\
+  !*** ./sass/icons/flags/aud.svg ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./sass/icons/flags/cad.svg ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./sass/icons/flags/chf.svg ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./sass/icons/flags/eur.svg ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./sass/icons/flags/gbp.svg ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./sass/icons/flags/jpy.svg ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./sass/icons/flags/mxn.svg ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./sass/icons/flags/nok.svg ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./sass/icons/flags/nzd.svg ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./sass/icons/flags/pln.svg ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./sass/icons/flags/sek.svg ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./sass/icons/flags/usd.svg ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./sass/icons/flags/xau.svg ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/components/Chart.jsx ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/components/Icons.jsx ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/components/Shade.jsx ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/components/Share.jsx ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/components/Views.jsx ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/store/DialogStore.js ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/store/LoaderStore.js ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/store/ScrollStore.js ***!
+  \**********************************/
+
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/components/Dialog.jsx ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/components/Loader.jsx ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/components/Scroll.jsx ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/hooks/use-previous.js ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/store/BarrierStore.js ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/store/RoutingStore.js ***!
+  \***********************************/
+
+/*!************************************!*\
+  !*** ./sass/components/_form.scss ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./sass/components/_view.scss ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./sass/icons/flags/dutch.svg ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./sass/icons/flags/italy.svg ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/binaryapi/BinaryAPI.js ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/components/Barrier.jsx ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/components/Tooltip.jsx ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/components/ui/index.js ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/components/ui/utils.js ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/store/FavoriteStore.js ***!
+  \************************************/
+
+/*!*************************************!*\
+  !*** ./sass/components/_icons.scss ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./sass/icons/back/ic-back.svg ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./sass/icons/edit/ic-edit.svg ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./sass/icons/flags/french.svg ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./sass/icons/flags/german.svg ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./sass/icons/flags/russia.svg ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./sass/icons/tick/ic-tick.svg ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./sass/icons/time/ic-time.svg ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/components/Favorite.jsx ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/components/ui/Helper.js ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/store/ChartModeStore.js ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/store/ChartSizeStore.js ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/store/ChartTypeStore.js ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/store/CrosshairStore.js ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/store/DrawToolsStore.js ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/store/PriceLineStore.js ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/utils/PendingPromise.js ***!
+  \*************************************/
+
+/*!**************************************!*\
+  !*** ./sass/components/_dialog.scss ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./sass/components/_scroll.scss ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./sass/components/_search.scss ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./sass/icons/chart/ic-down.svg ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./sass/icons/common/ic-add.svg ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./sass/icons/flags/chinese.svg ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./sass/icons/flags/spanish.svg ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./sass/icons/flags/vietnam.svg ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/components/ChartMode.jsx ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/components/ChartSize.jsx ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/components/Crosshair.jsx ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/components/DrawTools.jsx ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/components/PriceLine.jsx ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/components/RawMarker.jsx ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/components/ui/Context.js ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/store/ChartTitleStore.js ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/store/TimeperiodStore.js ***!
+  \**************************************/
+
+/*!***************************************!*\
+  !*** ./sass/icons/clear/ic-clear.svg ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./sass/icons/common/ic-info.svg ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./sass/icons/flags/portugal.svg ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./sass/icons/flags/thailand.svg ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/binaryapi/TradingTimes.js ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/components/ChartTitle.jsx ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/components/ChartTypes.jsx ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/components/FastMarker.jsx ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/components/MenuMobile.jsx ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/components/SmartChart.jsx ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/components/Timeperiod.jsx ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/store/CurrentSpotStore.js ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/store/StudyLegendStore.js ***!
+  \***************************************/
+
+/*!****************************************!*\
+  !*** ./node_modules/react-is/index.js ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./sass/components/_ciq-list.scss ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./sass/components/_download.scss ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./sass/icons/common/ic-close.svg ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./sass/icons/common/ic-theme.svg ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./sass/icons/download/ic-csv.svg ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./sass/icons/download/ic-png.svg ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./sass/icons/flags/hong kong.svg ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./sass/icons/flags/indonesia.svg ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/binaryapi/ActiveSymbols.js ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/components/ChartFooter.jsx ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/components/SearchInput.jsx ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/components/StudyLegend.jsx ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/components/ui/Animation.js ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/components/ui/Keystroke.js ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/feed/subscription/index.js ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/store/ChartSettingStore.js ***!
+  \****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/process/browser.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./sass/components/_crosshair.scss ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./sass/icons/common/ic-active.svg ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./sass/icons/common/ic-charts.svg ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./sass/icons/delete/ic-delete.svg ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./sass/icons/flags/wallstreet.svg ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./sass/icons/pencil/ic-pencil.svg ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/chartiq_injections/index.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/components/BottomWidget.jsx ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/components/ChartSetting.jsx ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/hooks/use-state-callback.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/store/AnimatedPriceStore.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/store/HighestLowestStore.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/store/ToolbarWidgetStore.js ***!
+  \*****************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/classnames/index.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/clsx/dist/clsx.m.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/prop-types/index.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./sass/components/_chart-mode.scss ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./sass/components/_chart-size.scss ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./sass/components/_draw_tools.scss ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./sass/components/_timeperiod.scss ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./sass/icons/chart/ic-maximize.svg ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./sass/icons/chart/resize-icon.svg ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./sass/icons/draw-tools/ic-ray.svg ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./sass/icons/indicators/ic-adx.svg ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./sass/icons/indicators/ic-rsi.svg ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/components/AnimatedPrice.jsx ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/components/ChartControls.jsx ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/components/ToolbarWidget.jsx ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/feed/TickHistoryFormatter.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/store/LastDigitStatsStore.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/store/SettingsDialogStore.js ***!
+  \******************************************/
+
+/*!*******************************************!*\
+  !*** ./chartiq/development/js/chartiq.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./sass/components/_chart-title.scss ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./sass/components/_chart-types.scss ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./sass/components/_last-digits.scss ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./sass/components/_studylegend.scss ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./sass/icons/alert message/info.svg ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./sass/icons/chart-type/ic-area.svg ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./sass/icons/chart-type/ic-ohlc.svg ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./sass/icons/common/full-screen.svg ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./sass/icons/common/ic-checkbox.svg ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./sass/icons/common/ic-download.svg ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./sass/icons/common/ic-language.svg ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./sass/icons/common/ic-minimize.svg ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./sass/icons/draw-tools/ic-line.svg ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./sass/icons/indicators/ic-macd.svg ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./sass/icons/measure/ic-measure.svg ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/components/LastDigitStats.jsx ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/components/PriceLineArrow.jsx ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/components/PriceLineTitle.jsx ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/components/SettingsDialog.jsx ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/components/ui/KeystrokeHub.js ***!
+  \*******************************************/
+
+/*!********************************************!*\
+  !*** ./sass/components/_chart-footer.scss ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./sass/icons/alert message/error.svg ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./sass/icons/close/ic-close-bold.svg ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./sass/icons/common/ic-templates.svg ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./sass/icons/draw-tools/ic-trend.svg ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./sass/icons/indicators/ic-aroon.svg ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./sass/icons/indicators/ic-gator.svg ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./sass/icons/indicators/ic-other.svg ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/components/CrosshairToggle.jsx ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/store/NavigationWidgetStore.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/store/PaginationLoaderStore.js ***!
+  \********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/object-assign/index.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./sass/components/_chart-setting.scss ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./sass/components/_menu-dropdown.scss ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./sass/icons/chart-type/ic-candle.svg ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./sass/icons/chart-type/ic-hollow.svg ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./sass/icons/common/ic-indicators.svg ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./sass/icons/dropdown/ic-dropdown.svg ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./sass/icons/shape/ic-empty-state.svg ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/chartiq_injections/currentHR.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/chartiq_injections/headsUpHR.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/components/NavigationWidget.jsx ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/components/PaginationLoader.jsx ***!
+  \*********************************************/
+
+/*!**********************************************!*\
+  !*** ./node_modules/mobx/lib/mobx.module.js ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./node_modules/react-tabs/esm/index.js ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./sass/components/_chart-controls.scss ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./sass/components/_toolbar-widget.scss ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./sass/icons/alert message/success.svg ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./sass/icons/alert message/warning.svg ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./sass/icons/arrows/ic-arrow-green.svg ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./sass/icons/close/ic-close-circle.svg ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./sass/icons/common/ic-help-center.svg ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./sass/icons/draw-tools/ic-channel.svg ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./sass/icons/indicators/ic-rainbow.svg ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./sass/icons/indicators/ic-zig-zag.svg ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./sass/icons/setting/ic-theme-dark.svg ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/chartiq_injections/setMeasure.js ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/components/NotificationBadge.jsx ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/components/RenderInsideChart.jsx ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/store/CategoricalDisplayStore.js ***!
+  \**********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/lodash.debounce/index.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./sass/components/_settings-dialog.scss ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./sass/icons/arrows/ic-arrow-orange.svg ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./sass/icons/common/ic-drawing-tool.svg ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./sass/icons/draw-tools/ic-vertical.svg ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./sass/icons/indicators/ic-averages.svg ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./sass/icons/indicators/ic-donchian.svg ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./sass/icons/indicators/ic-dtrended.svg ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./sass/icons/indicators/ic-envelope.svg ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./sass/icons/indicators/ic-ichimoku.svg ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./sass/icons/indicators/ic-momentum.svg ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./sass/icons/setting/ic-theme-light.svg ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/chartiq_injections/createXAxis.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/components/SymbolSelectButton.jsx ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/feed/subscription/Subscription.js ***!
+  \***********************************************/
+
+/*!************************************************!*\
+  !*** ./sass/icons/draw-tools/ic-rectangle.svg ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./sass/icons/indicators/ic-alligator.svg ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./sass/icons/indicators/ic-bollinger.svg ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./sass/icons/indicators/ic-parabolic.svg ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./sass/icons/search/ic-search-normal.svg ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./src/chartiq_injections/backingStore.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./src/components/HighestLowestMarker.jsx ***!
+  \************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/event-emitter-es6/index.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/mobx-react/index.module.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./sass/components/_navigation-widget.scss ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./sass/components/_pagination-loader.scss ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./sass/icons/draw-tools/ic-continuous.svg ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./sass/icons/draw-tools/ic-horizontal.svg ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./sass/icons/indicators/ic-trend-dark.svg ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./sass/icons/indicators/ic-volatility.svg ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./sass/icons/shape/ic-overwrite-state.svg ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/chartiq_injections/renderChannel.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/chartiq_injections/renderEllipse.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/chartiq_injections/renderGartley.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/chartiq_injections/renderSegment.js ***!
+  \*************************************************/
+
+/*!**************************************************!*\
+  !*** ./sass/icons/common/ic-checkbox-active.svg ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./sass/icons/flags/chinese-traditional.svg ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./sass/icons/indicators/ic-trend-light.svg ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./sass/icons/sidebar/otc/ic-otc-normal.svg ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./src/chartiq_injections/resizeObserver.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./src/store/BottomWidgetsContainerStore.js ***!
+  \**************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/prop-types/checkPropTypes.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./sass/components/_categorical-display.scss ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./sass/icons/active-symbols/ic-otcbadge.svg ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./sass/icons/indicators/ic-cat-averages.svg ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./sass/icons/navigation-widgets/ic-home.svg ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./sass/icons/placeholder/ic-placeholder.svg ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/chartiq_injections/plotterDrawText.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/chartiq_injections/renderPitchfork.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/chartiq_injections/renderRectangle.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/components/BottomWidgetsContainer.jsx ***!
+  \***************************************************/
+
+/*!****************************************************!*\
+  !*** ./sass/icons/common/ic-input-number-plus.svg ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./sass/icons/draw-tools/ic-fibonacci-fan.svg ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./sass/icons/favorite/ic-favorite-normal.svg ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./sass/icons/indicators/ic-fractal-chaos.svg ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/chartiq_injections/calculateAwesome.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/components/categoricaldisplay/Item.jsx ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/components/categoricaldisplay/index.js ***!
+  \****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/react-tabs/esm/helpers/uuid.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./sass/components/_highest-lowest-marker.scss ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./sass/icons/chart-type/ic-area-grayscale.svg ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./sass/icons/chart-type/ic-ohlc-grayscale.svg ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./sass/icons/common/ic-input-number-minus.svg ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./sass/icons/indicators/ic-rate-of-change.svg ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./sass/icons/navigation-widgets/ic-zoomin.svg ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./src/components/MarketOpeningTimeCounter.jsx ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./src/store/IndicatorPredictionDialogStore.js ***!
+  \*****************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/react-tabs/esm/helpers/count.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/react-tabs/style/react-tabs.css ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./sass/icons/indicators/ic-william-percent.svg ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./sass/icons/navigation-widgets/ic-zoomout.svg ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./sass/icons/sidebar/forex/ic-forex-normal.svg ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./src/components/IndicatorPredictionDialog.jsx ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./src/feed/subscription/DelayedSubscription.js ***!
+  \******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/react-tabs/esm/components/Tab.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./sass/components/_bottom-widget-container.scss ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./sass/icons/active-symbols/metals/ic-metal.svg ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./sass/icons/chart-type/ic-candle-grayscale.svg ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./sass/icons/chart-type/ic-hollow-grayscale.svg ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./src/feed/subscription/RealtimeSubscription.js ***!
+  \*******************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/react-tabs/esm/components/Tabs.js ***!
+  \********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-bchusd.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-bnbusd.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-btceth.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-btcltc.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-btcusd.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-dshusd.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-eosusd.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-ethusd.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-iotusd.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-ltcusd.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-neousd.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-omgusd.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-trxusd.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-xlmusd.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-xmrusd.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-xrpusd.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/active-symbols/cryptos/ic-zecusd.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/indicators/ic-awesome-oscillator.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./sass/icons/navigation-widgets/ic-scale-full.svg ***!
+  \*********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/react-tabs/esm/helpers/propTypes.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./sass/icons/indicators/ic-stochastic-momentum.svg ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./sass/icons/sidebar/indices/ic-indices-normal.svg ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./translation lazy ^\.\/.*\.json$ namespace object ***!
+  \**********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/react-is/cjs/react-is.development.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/react-tabs/esm/components/TabList.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./sass/components/_indicator_prediction_dialog.scss ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./src/components/categoricaldisplay/FilterPanel.jsx ***!
+  \***********************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/react-tabs/esm/components/TabPanel.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./sass/icons/indicators/ic-stochastic-oscillator.svg ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./sass/icons/sidebar/synth_index/ic-synth-normal.svg ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./src/components/categoricaldisplay/ResultsPanel.jsx ***!
+  \************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/react-tabs/esm/helpers/elementTypes.js ***!
+  \*************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./sass/icons/active-symbols/ic-smartfx-placeholder.svg ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./sass/icons/indicators/ic-commodity-channel-index.svg ***!
+  \**************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./sass/icons/chart settings/chart types/table/table.svg ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./sass/icons/chart settings/zoom-in/ic-zoomin-light.svg ***!
+  \***************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/react-tabs/esm/helpers/childrenDeepMap.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./sass/icons/active-symbols/energy/oil usd/ic-oilusd.svg ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./sass/icons/chart settings/setting/ic-position-left.svg ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./sass/icons/sidebar/volatility/ic-volatility-normal.svg ***!
+  \****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./sass/icons/chart settings/crosshair/ic-crosshair-on.svg ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./sass/icons/chart settings/zoom-out/ic-zoomout-light.svg ***!
+  \*****************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./sass/icons/chart settings/chart types/ic-kagi-normal.svg ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./sass/icons/chart settings/crosshair/ic-crosshair-off.svg ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./sass/icons/chart settings/setting/ic-position-bottom.svg ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./sass/icons/sidebar/commodities/ic-commodities-normal.svg ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./src/components/categoricaldisplay/CategoricalDisplay.jsx ***!
+  \******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./sass/icons/chart settings/chart types/ic-renko-normal.svg ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./sass/icons/setting/countdown/ic-countdown-dark-active.svg ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./sass/icons/setting/countdown/ic-countdown-dark-normal.svg ***!
+  \*******************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/react-tabs/esm/components/UncontrolledTabs.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./sass/icons/setting/countdown/ic-countdown-light-active.svg ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./sass/icons/setting/countdown/ic-countdown-light-normal.svg ***!
+  \********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./sass/icons/chart settings/chart types/dot/ic-dot-normal.svg ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./sass/icons/setting/historical/ic-historical-dark-active.svg ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./sass/icons/setting/historical/ic-historical-dark-normal.svg ***!
+  \*********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./sass/icons/chart settings/crosshair/ic-crosshair-tooltip.svg ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./sass/icons/setting/historical/ic-historical-light-active.svg ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./sass/icons/setting/historical/ic-historical-light-normal.svg ***!
+  \**********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./sass/icons/chart settings/chart types/ic-linebreak-normal.svg ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./sass/icons/chart settings/chart types/ic-rangebars-normal.svg ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./sass/icons/chart settings/chart types/line/ic-line-normal.svg ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./sass/icons/chart settings/chart types/ohlc/ic-ohlc-normal.svg ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./sass/icons/chart settings/comparison/ic-comparison-normal.svg ***!
+  \***********************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/step index/step index.svg ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./sass/icons/sidebar/cryptocurrency/ic-cryptocurrency-normal.svg ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** external {"root":"React","commonjs":"react","commonjs2":"react"} ***!
+  \************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/10 index/ic-10-index-v.svg ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/25 index/ic-25-index-v.svg ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/50 index/ic-50-index-v.svg ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/75 index/ic-75-index-v.svg ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/jd10 index/ic-10-index.svg ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/jd25 index/ic-25-index.svg ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/jd50 index/ic-50-index.svg ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/jd75 index/ic-75-index.svg ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./sass/icons/chart settings/chart types/ic-heikin-ashi-normal.svg ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./sass/icons/chart settings/chart types/ic-pointfigure-normal.svg ***!
+  \*************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/100 index/ic-100-index-v.svg ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/jd100 index/ic-100-index.svg ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/jd150 index/ic-150-index.svg ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/jd200 index/ic-200-index.svg ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./sass/icons/chart settings/chart types/candle/ic-candle-normal.svg ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./sass/icons/chart settings/chart types/spline/ic-spline-normal.svg ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** external {"root":"moment","commonjs":"moment","commonjs2":"moment"} ***!
+  \***************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/1s10 index/ic-10-1s-index.svg ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/bear market/ic-marketbear.svg ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/bull market/ic-marketbull.svg ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./sass/icons/chart settings/drawing tools/ic-drawingtools-normal.svg ***!
+  \****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./sass/icons/setting/highest-lowest/ic-highest-lowest-dark-active.svg ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./sass/icons/setting/highest-lowest/ic-highest-lowest-dark-normal.svg ***!
+  \*****************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/1s100 index/ic-100-1s-index.svg ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/1s200 index/ic-200-1s-index.svg ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/1s300 index/ic-300-1s-index.svg ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/boom300 index/boom300 index.svg ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/boom500 index/boom500 index.svg ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./sass/icons/chart settings/chart types/line dot/ic-linedot-normal.svg ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./sass/icons/setting/highest-lowest/ic-highest-lowest-light-active.svg ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./sass/icons/setting/highest-lowest/ic-highest-lowest-light-normal.svg ***!
+  \******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/1s25 index/light-25(1s)index.svg ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./sass/icons/chart settings/chart types/baseline/ic-baseline-normal.svg ***!
+  \*******************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/1s50 index/light-50(1s) index.svg ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/1s75 index/light-75(1s) index.svg ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/boom1000 index/boom1000 index.svg ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/crash300 index/crash300 index.svg ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/crash500 index/crash500 index.svg ***!
+  \********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./sass/icons/active-symbols/volatility/crash1000 index/crash1000 index.svg ***!
+  \**********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** external {"commonjs":"react-dom","commonjs2":"react-dom","root":"ReactDOM"} ***!
+  \***********************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./sass/icons/chart settings/chart types/hollow candle/ic-hollowcandle-normal.svg ***!
+  \****************************************************************************************/
+
+/*!*************************************************************************************************************************!*\
+  !*** external {"commonjs":"react-transition-group","commonjs2":"react-transition-group","root":"ReactTransitionGroup"} ***!
+  \*************************************************************************************************************************/
+
+/** @license React v16.13.1
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
