@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("react-transition-group"), require("moment"), require("react"), require("react-dom"));
+		module.exports = factory(require("moment"), require("react"), require("react-dom"), require("react-transition-group"));
 	else if(typeof define === 'function' && define.amd)
 		define([, , , ], factory);
 	else if(typeof exports === 'object')
-		exports["smartcharts"] = factory(require("react-transition-group"), require("moment"), require("react"), require("react-dom"));
+		exports["smartcharts"] = factory(require("moment"), require("react"), require("react-dom"), require("react-transition-group"));
 	else
-		root["smartcharts"] = factory(root["ReactTransitionGroup"], root["moment"], root["React"], root["ReactDOM"]);
-})(window, function(__WEBPACK_EXTERNAL_MODULE_react_transition_group__, __WEBPACK_EXTERNAL_MODULE_moment__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom__) {
+		root["smartcharts"] = factory(root["moment"], root["React"], root["ReactDOM"], root["ReactTransitionGroup"]);
+})(window, function(__WEBPACK_EXTERNAL_MODULE_moment__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom__, __WEBPACK_EXTERNAL_MODULE_react_transition_group__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// install a JSONP callback for chunk loading
 /******/ 	function webpackJsonpCallback(data) {
