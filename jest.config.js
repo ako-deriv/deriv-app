@@ -1,7 +1,7 @@
 module.exports = {
     collectCoverage: true,
     collectCoverageFrom: ['**/*.{js,jsx,ts,tsx}', '!**/node_modules/**'],
-    coverageReporters: ['lcov'],
+    coverageReporters: ['clover'],
     coverageDirectory: './coverage/',
     clearMocks: true,
     projects: ['<rootDir>/packages/*/jest.config.js'],
