@@ -1,8 +1,6 @@
 name: Unit Tests with coverage
 
-on:
-  pull_request:
-
+on: [ push ]
 jobs:
   node-tests:
     runs-on: ubuntu-latest
