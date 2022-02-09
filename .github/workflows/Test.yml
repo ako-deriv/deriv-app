@@ -1,6 +1,7 @@
-name: Node.js CI
+name: 'coverage commenter'
 
 on: push
+
 
 jobs:
   build:
@@ -19,7 +20,4 @@ jobs:
       - run: npm run bootstrap && npm run build
       - name: TestCoverage
         id: testCoverage
-        uses: raulanatol/jest-coverage-comment-action@main
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          jest-command: 'npm run test:ci'
+        uses: ArtiomTr/jest-coverage-report-action@v2
