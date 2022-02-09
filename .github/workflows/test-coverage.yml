@@ -19,7 +19,7 @@ jobs:
       - name: install, bootstrap and make test coverage
         run: |
           npm install
-          mpm run bootstrap
+          npm run bootstrap
           npm run build
           npm run test:ci
 
