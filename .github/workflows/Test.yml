@@ -16,10 +16,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm install
-      - run: npm run bootstrap && npm run build
       - name: TestCoverage
         id: testCoverage
+      - run: npm install
+      - run: npm run bootstrap && npm run build
         uses: ArtiomTr/jest-coverage-report-action@v2
         with:
           test-script: npm run test:ci
