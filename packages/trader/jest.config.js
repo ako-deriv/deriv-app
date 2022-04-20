@@ -17,3 +17,4 @@ module.exports = {
         '^Stores\/(.*)$': "<rootDir>/src/Stores/$1",
     },
 };
+
