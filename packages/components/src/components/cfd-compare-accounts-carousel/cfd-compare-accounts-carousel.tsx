@@ -8,7 +8,7 @@ type TCFDCompareAccountsCarousel = {
 
 const CFDCompareAccountsCarousel = (props: TCFDCompareAccountsCarousel) => {
     const options: EmblaOptionsType = {
-        align: 0,
+        align: () => 0,
         containScroll: 'trimSnaps',
     };
     const [emblaRef, emblaApi] = useEmblaCarousel(options);
